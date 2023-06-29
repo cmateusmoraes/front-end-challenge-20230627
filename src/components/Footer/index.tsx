@@ -1,3 +1,11 @@
+"use client";
+
+import { Container } from "@/styles/Commom";
+
 export function Footer() {
-  return <footer>Footer</footer>;
+  return (
+    <footer>
+      <Container>Footer</Container>
+    </footer>
+  );
 }

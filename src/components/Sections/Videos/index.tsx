@@ -1,3 +1,7 @@
+"use client";
+
+import { Container } from "@/styles/Commom";
+
 export function Videos() {
-  return <section id="videos">Videos</section>;
+  return <Container id="videos">Videos</Container>;
 }

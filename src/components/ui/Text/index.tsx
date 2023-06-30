@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 import { device } from "@/styles/BreakPoints";
 
 type TextProps = {
-  color?: string | "var(--textColor)";
+  color?: string | "var(--tertiaryColor)";
   fontSize: "xs" | "sm" | "md" | "lg" | string;
   fontWeight?: "bold" | string;
   lineHeight?: string | number;
@@ -12,7 +12,7 @@ type TextProps = {
 };
 
 export const Text = styled.p<TextProps>`
-  color: ${props => props.color ?? "var(--textColor)"};
+  color: ${props => props.color ?? "var(--tertiaryColor)"};
   text-align: ${props => props.textAlign ?? "left"};
   font-weight: ${props => props.fontWeight ?? "normal"};
   line-height: ${props => props.lineHeight ?? "3rem"};

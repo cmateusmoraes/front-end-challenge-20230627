@@ -1,6 +1,6 @@
 "use client";
 
-import { Text } from "@/components/Text";
+import { Text } from "@/components/ui/Text";
 import { SectionHero, WrapperText, Title, Tag, LeadsterDetail } from "./styles";
 
 import imgDetailLeadster from "@/assets/img/leadster-logo.svg";
@@ -20,6 +20,7 @@ export function Hero() {
             WEBINARS EXCLUSIVOS
           </Text>
         </Tag>
+
         <Title
           fontSize="lg"
           letterSpacing="-0.1rem"
@@ -31,6 +32,7 @@ export function Hero() {
           <strong>Mais Conversão</strong>
           <LeadsterDetail src={imgDetailLeadster} alt="Leadster" />
         </Title>
+
         <Text fontSize="sm" fontWeight="500" textAlign="center">
           Conheça as estratégias que <strong>mudaram o jogo</strong> e como
           aplicá-las no seu negócio.

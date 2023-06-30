@@ -8,7 +8,7 @@ import { Plus_Jakarta_Sans as PlusJakartaSans } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
-import { metadataConfig } from "./metadata";
+import { metadataInfo } from "./metadata";
 
 const plusJakartaSans = PlusJakartaSans({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
@@ -17,7 +17,7 @@ const plusJakartaSans = PlusJakartaSans({
   display: "auto",
 });
 
-export const metadata = metadataConfig;
+export const metadata = metadataInfo;
 
 export default function RootLayout({
   children,

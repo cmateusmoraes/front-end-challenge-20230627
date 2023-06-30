@@ -1,9 +1,7 @@
 :root {
   --primaryColor: #2c83fb;
   --secondaryColor: #00d59f;
-  --colorTertiary: #4877dd;
-  --textColor: #2c3e50;
-  --textColorSecondary: #2c3e50;
+  --tertiaryColor: #2c3e50;
   --bgColorPrimary: #ffffff;
   --bgColorSecondary: #e6f3ff;
 }

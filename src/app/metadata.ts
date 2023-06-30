@@ -3,7 +3,7 @@ const descriptionShare =
   "Conheça as estratégias que mudaram o jogo e como aplicá-las no seu negócio.";
 const urlShare = "#";
 
-export const metadataConfig = {
+export const metadataInfo = {
   title: titleShare,
   description: descriptionShare,
   openGraph: {

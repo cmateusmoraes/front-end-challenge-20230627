@@ -4,7 +4,7 @@ import { device } from "@/styles/BreakPoints";
 
 type TextProps = {
   color?: string | "var(--textColor)";
-  fontSize: "sm" | "md" | "lg" | string;
+  fontSize: "xs" | "sm" | "md" | "lg" | string;
   fontWeight?: "bold" | string;
   lineHeight?: string | number;
   letterSpacing?: string | number;
@@ -15,10 +15,18 @@ export const Text = styled.p<TextProps>`
   color: ${props => props.color ?? "var(--textColor)"};
   text-align: ${props => props.textAlign ?? "left"};
   font-weight: ${props => props.fontWeight ?? "normal"};
-  line-height: ${props => props.lineHeight ?? "1"};
-  letter-spacing: ${props => props.letterSpacing ?? "1"};
+  line-height: ${props => props.lineHeight ?? "3rem"};
+  letter-spacing: ${props => props.letterSpacing ?? "0"};
   ${props => {
     switch (props.fontSize) {
+      case "xxs":
+        return css`
+          font-size: 1.4rem;
+
+          @media ${device.xs} {
+            font-size: 1.8rem;
+          }
+        `;
       case "xs":
         return css`
           font-size: 1.6rem;

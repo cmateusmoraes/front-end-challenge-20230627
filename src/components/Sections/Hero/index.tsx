@@ -1,7 +1,9 @@
 "use client";
 
 import { Text } from "@/components/Text";
-import { SectionHero, WrapperText, Title, Tag } from "./styles";
+import { SectionHero, WrapperText, Title, Tag, LeadsterDetail } from "./styles";
+
+import imgDetailLeadster from "@/assets/img/leadster-logo.svg";
 
 export function Hero() {
   return (
@@ -9,12 +11,13 @@ export function Hero() {
       <WrapperText>
         <Tag>
           <Text
-            fontSize="0.75rem"
+            fontSize="xxs"
             fontWeight="600"
             color="var(--primaryColor)"
             textAlign="center"
+            lineHeight="1.4rem"
           >
-            WEBNAR EXCLUSIVOS
+            WEBINARS EXCLUSIVOS
           </Text>
         </Tag>
         <Title
@@ -26,6 +29,7 @@ export function Hero() {
         >
           Menos Conversinha,
           <strong>Mais Conversão</strong>
+          <LeadsterDetail src={imgDetailLeadster} alt="Leadster" />
         </Title>
         <Text fontSize="sm" fontWeight="500" textAlign="center">
           Conheça as estratégias que <strong>mudaram o jogo</strong> e como

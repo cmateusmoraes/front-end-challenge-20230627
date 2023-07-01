@@ -58,6 +58,10 @@ export const Text = styled.p<TextProps>`
     }
   }}
 
+  strong {
+    font-weight: 700;
+  }
+
   @media ${device.md} {
     max-width: calc(100vw - 6rem);
     margin-left: auto;

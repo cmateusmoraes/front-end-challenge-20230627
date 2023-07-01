@@ -2,7 +2,7 @@
 
 import Select from "@/components/ui/Select";
 import VideoCard from "@/components/VideoCard";
-import { Container } from "@/styles/Commom";
+import { Container } from "@/components/ui/Container";
 import { Text } from "@/components/ui/Text";
 import { FilterTag } from "@/components/ui/FilterTag";
 

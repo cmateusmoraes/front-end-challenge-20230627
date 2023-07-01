@@ -1,6 +1,6 @@
 "use client";
 
-import { Container } from "@/styles/Commom";
+import { Container } from "@/components/ui/Container";
 
 export function Footer() {
   return (

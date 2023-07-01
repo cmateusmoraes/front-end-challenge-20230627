@@ -5,7 +5,7 @@ import Image from "next/image";
 import styled from "styled-components";
 
 import { Text } from "@/components/ui/Text";
-import { Container } from "@/styles/Commom";
+import { Container } from "@/components/ui/Container";
 
 import imgArrow from "@/assets/img/arrow.svg";
 import img404 from "@/assets/img/404.png";

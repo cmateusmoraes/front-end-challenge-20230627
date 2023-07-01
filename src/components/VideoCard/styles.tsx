@@ -77,7 +77,7 @@ export const IcoPlay = styled(Image)`
   z-index: 20;
   opacity: 0;
   transform: scale(0.5);
-  transition: all 0.25s ease-out;
+  transition: all 0.3s cubic-bezier(0.465, 0.345, 0.095, 1.55);
 `;
 
 export const CaptionVideo = styled.figcaption`

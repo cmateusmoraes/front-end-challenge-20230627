@@ -1,6 +1,6 @@
 import logoLeadster from "@/assets/img/leadster.svg";
 
-import { Container, Logo } from "./styles.jsx";
+import { Container, Logo } from "./styles";
 
 export function Header() {
   return (

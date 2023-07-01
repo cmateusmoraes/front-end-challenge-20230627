@@ -9,6 +9,7 @@ type TextProps = {
   lineHeight?: string | number;
   letterSpacing?: string | number;
   textAlign?: "left" | "center" | "right";
+  margin?: string;
 };
 
 export const Text = styled.p<TextProps>`
@@ -17,6 +18,7 @@ export const Text = styled.p<TextProps>`
   font-weight: ${props => props.fontWeight ?? "normal"};
   line-height: ${props => props.lineHeight ?? "3rem"};
   letter-spacing: ${props => props.letterSpacing ?? "0"};
+  margin: ${props => props.margin ?? props.margin};
   ${props => {
     switch (props.fontSize) {
       case "xxs":

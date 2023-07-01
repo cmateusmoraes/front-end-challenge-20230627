@@ -7,7 +7,7 @@ import { device } from "@/styles/BreakPoints";
 
 export const SectionAbout = styled.section`
   background-color: var(--bgColorSecondary);
-  padding: 100px 0;
+  padding: 10rem 0 0;
 `;
 export const WrapperAbout = styled(Container)`
   display: flex;
@@ -15,6 +15,7 @@ export const WrapperAbout = styled(Container)`
   justify-content: space-between;
   align-items: center;
 `;
+
 export const WrapperGraph = styled.div`
   width: 50%;
   display: flex;

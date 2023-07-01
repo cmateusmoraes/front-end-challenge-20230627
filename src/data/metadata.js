@@ -1,7 +1,7 @@
 const titleShare = "Leadster - Menos Conversinha, Mais Conversão";
 const descriptionShare =
   "Conheça as estratégias que mudaram o jogo e como aplicá-las no seu negócio.";
-const urlShare = "#";
+const urlShare = "https://www.leadster.com.br";
 
 export const metadataInfo = {
   title: titleShare,

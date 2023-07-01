@@ -9,11 +9,12 @@ export default function Select({ options, placeholder }: SelectProps) {
   return (
     <ReactSelect
       options={options}
+      id="select-filters"
       placeholder={placeholder}
       styles={{
         container: baseStyles => ({
           ...baseStyles,
-          width: "70%",
+          width: "65%",
         }),
         control: baseStyles => ({
           ...baseStyles,
@@ -26,6 +27,7 @@ export default function Select({ options, placeholder }: SelectProps) {
         }),
         placeholder: baseStyles => ({
           ...baseStyles,
+          fontWeight: 500,
           color: "#2c3e50",
         }),
       }}

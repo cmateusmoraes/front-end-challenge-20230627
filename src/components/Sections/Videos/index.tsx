@@ -1,20 +1,12 @@
 "use client";
 
+import Select from "@/components/ui/Select";
+import VideoCard from "@/components/VideoCard";
 import { Container } from "@/styles/Commom";
 import { Text } from "@/components/ui/Text";
-import {
-  FilterWrapper,
-  FilterList,
-  SelectWrapper,
-  VideosWrapper,
-  CardVideo,
-  PaginationList,
-  PaginationWrapper,
-  PaginationItem,
-  PaginationButton,
-} from "./styles";
-import Select from "@/components/ui/Select";
-import { FilterTag } from "@/components/ui/Filter";
+import { FilterTag } from "@/components/ui/FilterTag";
+
+import * as S from "./styles";
 
 const filterData = [
   { label: "Agências", value: 1 },
@@ -29,7 +21,7 @@ const options = [
   { value: "DESC", label: "Mais antigos" },
 ];
 
-const itemsPagination = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+const itemsPagination = [1, 2, 3, 4];
 
 export function Videos() {
   const handleClickFilter = () => {
@@ -38,8 +30,8 @@ export function Videos() {
 
   return (
     <Container id="videos" as="section">
-      <FilterWrapper>
-        <FilterList>
+      <S.FilterWrapper>
+        <S.FilterList>
           {filterData.map((item, index) => (
             <FilterTag
               label={item.label}
@@ -47,33 +39,41 @@ export function Videos() {
               onClick={handleClickFilter}
             />
           ))}
-        </FilterList>
+        </S.FilterList>
 
-        <SelectWrapper>
-          <Text fontSize="xs" fontWeight="500">
+        <S.SelectWrapper>
+          <Text fontSize="xs" fontWeight="500" as="label">
             Ordenar por
           </Text>
           <Select options={Object(options)} placeholder="Data de publicação" />
-        </SelectWrapper>
-      </FilterWrapper>
+        </S.SelectWrapper>
+      </S.FilterWrapper>
 
-      <VideosWrapper>
-        <CardVideo>CardVideo</CardVideo>
-      </VideosWrapper>
+      <S.VideosWrapper>
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+      </S.VideosWrapper>
 
-      <PaginationWrapper>
-        <Text fontSize="sm" fontWeight="600" color="#000000">
+      <S.PaginationWrapper>
+        <Text fontSize="2.5rem" fontWeight="600" color="#000000">
           Página
         </Text>
 
-        <PaginationList>
+        <S.PaginationList>
           {itemsPagination.map((item, index) => (
-            <PaginationItem key={index}>
-              <PaginationButton>{item}</PaginationButton>
-            </PaginationItem>
+            <S.PaginationItem key={index}>
+              <S.PaginationButton>{item}</S.PaginationButton>
+            </S.PaginationItem>
           ))}
-        </PaginationList>
-      </PaginationWrapper>
+        </S.PaginationList>
+      </S.PaginationWrapper>
     </Container>
   );
 }

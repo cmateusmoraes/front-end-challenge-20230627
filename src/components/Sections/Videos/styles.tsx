@@ -1,93 +1,69 @@
-import Image from "next/image";
-import Select from "react-select";
 import styled from "styled-components";
 
 import { device } from "@/styles/BreakPoints";
-import { Text } from "@/components/ui/Text";
 
 export const FilterWrapper = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8.5rem 0;
+  padding: 8.5rem 0 2.5rem;
 `;
 
 export const FilterList = styled.ul`
-  width: 80%;
+  width: 72%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 `;
 
-type filterProp = {
-  active?: boolean;
-};
-
-export const Filter = styled.li<filterProp>`
-  position: relative;
-  overflow: hidden;
-  padding: 0.4rem 1.5rem;
-  border-radius: 2.5rem;
-  border: 0.1px solid var(--tertiaryColor);
-  margin: 0 0.5rem;
-  transition: all 0.15s ease-out;
-  border-color: ${props =>
-    props.active ? "var(--primaryColor)" : "var(--tertiaryColor)"};
-
-  &::before {
-    content: " ";
-    position: absolute;
-    background-color: var(--primaryColor);
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    transform-origin: center center;
-    top: calc(50% - 0.5rem);
-    right: 0;
-    bottom: 0;
-    left: calc(50% - 0.5rem);
-    transform: ${props => (props.active ? "scale(20)" : "scale(0)")};
-    transition: all 0.25s ease-out;
-  }
-
-  button {
-    position: relative;
-    transition: all 0.25s ease-out;
-    color: ${props => (props.active ? "#FFFFFF" : "var(--tertiaryColor)")};
-  }
-
-  &:first-child {
-    margin-left: 0;
-  }
-
-  &:last-child {
-    margin-right: 0;
-  }
-
-  &:hover {
-    border-color: var(--primaryColor);
-
-    button {
-      color: ${props => (props.active ? "#FFFFFF" : "var(--primaryColor)")};
-    }
-  }
-`;
-
 export const SelectWrapper = styled.div`
-  width: 35%;
+  width: 28%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  label {
+    width: 35%;
+  }
 `;
 
-export const VideosWrapper = styled.div``;
+export const VideosWrapper = styled.div`
+  padding: 6rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+  border-top: 1px solid #d5d9dd;
+  border-bottom: 1px solid #d5d9dd;
+`;
 
-export const CardVideo = styled.div``;
+export const PaginationWrapper = styled.div`
+  padding: 3.6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
-export const PaginationWrapper = styled.div``;
+export const PaginationList = styled.ul`
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+`;
 
-export const PaginationList = styled.ul``;
+export const PaginationItem = styled.li`
+  margin: 0 2px;
+`;
 
-export const PaginationItem = styled.li``;
+export const PaginationButton = styled.button`
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 4.3rem;
+  height: 4.3rem;
+  border-radius: 8px;
+  transition: all 0.2s ease-out;
+  border: 1px solid transparent;
 
-export const PaginationButton = styled.button``;
+  &:hover {
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+  }
+`;

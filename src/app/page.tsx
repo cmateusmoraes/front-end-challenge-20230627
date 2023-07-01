@@ -1,6 +1,10 @@
-import { Hero } from "@/components/Sections/Hero";
-import { Videos } from "@/components/Sections/Videos";
-import { About } from "@/components/Sections/About";
+import { Hero } from "@/components/sections/Hero";
+import { Videos } from "@/components/sections/Videos";
+import { About } from "@/components/sections/About";
+
+import { metadataInfo } from "@/data/metadata";
+
+export const metadata = metadataInfo;
 
 export default function Home() {
   return (

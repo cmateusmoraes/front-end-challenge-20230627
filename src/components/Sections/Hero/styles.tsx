@@ -6,7 +6,7 @@ import { Text } from "@/components/ui/Text";
 
 export const SectionHero = styled.section`
   width: 100%;
-  height: calc(100vh - 35.8rem);
+  height: calc(100vh - 32.7rem);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,9 +1,10 @@
 :root {
-  --primaryColor: #2c83fb;
+  --primaryColor: rgb(44, 131, 251);
   --secondaryColor: #00d59f;
   --tertiaryColor: #2c3e50;
   --bgColorPrimary: #ffffff;
   --bgColorSecondary: #e6f3ff;
+  --easing: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 /* Box sizing rules */

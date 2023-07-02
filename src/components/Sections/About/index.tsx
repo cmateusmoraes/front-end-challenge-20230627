@@ -35,26 +35,30 @@ export function About() {
           </S.WrapperCta>
 
           <S.WrapperDetails fontSize="xs" fontWeight="600">
-            <Image
-              src={imgNoCredit}
-              alt="Não é necessário cartão de crédito."
-              style={{
-                width: "18px",
-                height: "auto",
-                display: "block",
-              }}
-            />
-            Não é necessário Cartão de Crédito |
-            <Image
-              src={imgRating}
-              alt="4.9/5 média de satisfação."
-              style={{
-                width: "92px",
-                height: "16px",
-                display: "block",
-              }}
-            />
-            4.9/5 média de satisfação.
+            <span>
+              <Image
+                src={imgNoCredit}
+                alt="Não é necessário cartão de crédito."
+                style={{
+                  width: "18px",
+                  height: "auto",
+                  display: "block",
+                }}
+              />
+              Não é necessário Cartão de Crédito <i>|</i>
+            </span>
+            <span>
+              <Image
+                src={imgRating}
+                alt="4.9/5 média de satisfação."
+                style={{
+                  width: "92px",
+                  height: "16px",
+                  display: "block",
+                }}
+              />
+              4.9/5 média de satisfação.
+            </span>
           </S.WrapperDetails>
         </S.WrapperInfo>
       </S.WrapperAbout>

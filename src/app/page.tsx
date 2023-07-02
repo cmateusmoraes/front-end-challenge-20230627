@@ -13,7 +13,7 @@ export default function Home() {
 
       <Videos />
 
-      {/* <About /> */}
+      <About />
     </main>
   );
 }

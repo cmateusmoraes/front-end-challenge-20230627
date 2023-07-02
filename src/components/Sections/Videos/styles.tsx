@@ -68,7 +68,7 @@ export const SelectWrapper = styled.div`
     width: 100%;
 
     label {
-      width: 20%;
+      width: 25%;
       display: block;
     }
   }

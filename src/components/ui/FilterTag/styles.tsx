@@ -25,6 +25,10 @@ export const Filter = styled.li<filterProp>`
     padding: 0.4rem 1.6rem;
   }
 
+  @media ${device.sm} {
+    text-align: center;
+  }
+
   &::before {
     content: " ";
     position: absolute;

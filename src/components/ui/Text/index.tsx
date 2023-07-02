@@ -25,7 +25,7 @@ export const Text = styled.p<TextProps>`
           line-height: 1.5rem;
 
           @media ${device.xs} {
-            font-size: 1.8rem;
+            font-size: 2rem;
           }
         `;
       case "xs":
@@ -34,6 +34,10 @@ export const Text = styled.p<TextProps>`
 
           @media ${device.lg} {
             font-size: 1.6rem;
+          }
+
+          @media ${device.sm} {
+            font-size: 2rem;
           }
         `;
 

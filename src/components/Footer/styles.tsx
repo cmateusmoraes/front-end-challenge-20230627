@@ -1,8 +1,14 @@
 import Image from "next/image";
 import styled from "styled-components";
 
+import { device } from "@/styles/BreakPoints";
+
 export const Footer = styled.footer`
   padding: 5rem 0;
+
+  p {
+    margin-bottom: 1.5rem;
+  }
 `;
 
 export const Social = styled.ul`
@@ -27,7 +33,7 @@ export const Social = styled.ul`
 
 export const Logo = styled(Image)`
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 0.5rem;
 `;
 
 export const WrapperSiteMap = styled.div`
@@ -35,6 +41,10 @@ export const WrapperSiteMap = styled.div`
   justify-content: space-between;
   padding: 4rem 0 8rem;
   border-bottom: 1px solid #d5d9dd;
+
+  @media ${device.sm} {
+    flex-wrap: wrap;
+  }
 `;
 
 export const WrapperCol = styled.div`
@@ -53,7 +63,16 @@ export const WrapperCol = styled.div`
         color: var(--primaryColor);
         text-decoration: underline;
       }
+
+      @media ${device.md} {
+        font-size: 1.8rem;
+      }
     }
+  }
+
+  @media ${device.sm} {
+    margin-bottom: 5rem;
+    width: 50%;
   }
 `;
 
@@ -62,4 +81,14 @@ export const WrapperCopy = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media ${device.sm} {
+    display: block;
+
+    p {
+      margin-bottom: 2rem;
+      line-height: 2.5rem;
+      text-align: center;
+    }
+  }
 `;

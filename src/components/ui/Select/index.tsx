@@ -23,6 +23,11 @@ export default function Select({ options, placeholder }: SelectProps) {
             width: "75%",
             marginLeft: "5%",
           },
+
+          "@media only screen and (max-width: 768px)": {
+            width: "70%",
+            marginLeft: "5%",
+          },
         }),
         control: baseStyles => ({
           ...baseStyles,
@@ -40,6 +45,14 @@ export default function Select({ options, placeholder }: SelectProps) {
           color: "#2c3e50",
           "@media only screen and (max-width: 1280px)": {
             fontSize: "1.4rem",
+          },
+
+          "@media only screen and (max-width: 990px)": {
+            fontSize: "1.8rem",
+          },
+
+          "@media only screen and (max-width: 768px)": {
+            fontSize: "2rem",
           },
         }),
       }}

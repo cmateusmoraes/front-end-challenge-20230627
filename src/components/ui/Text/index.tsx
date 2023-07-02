@@ -6,7 +6,6 @@ type TextProps = {
   color?: string | "var(--tertiaryColor)";
   fontSize: "xxs" | "xs" | "sm" | "md" | "lg" | string;
   fontWeight?: "bold" | string;
-  lineHeight?: string | number;
   letterSpacing?: string | number;
   textAlign?: "left" | "center" | "right";
   margin?: string;
@@ -16,7 +15,6 @@ export const Text = styled.p<TextProps>`
   color: ${props => props.color ?? "var(--tertiaryColor)"};
   text-align: ${props => props.textAlign ?? "left"};
   font-weight: ${props => props.fontWeight ?? "normal"};
-  line-height: ${props => props.lineHeight ?? "3rem"};
   letter-spacing: ${props => props.letterSpacing ?? "0"};
   margin: ${props => props.margin ?? props.margin};
   ${props => {
@@ -24,6 +22,7 @@ export const Text = styled.p<TextProps>`
       case "xxs":
         return css`
           font-size: 1.4rem;
+          line-height: 1.5rem;
 
           @media ${device.xs} {
             font-size: 1.8rem;
@@ -32,24 +31,39 @@ export const Text = styled.p<TextProps>`
       case "xs":
         return css`
           font-size: 1.6rem;
+
+          @media ${device.lg} {
+            font-size: 1.6rem;
+          }
         `;
+
       case "sm":
         return css`
           font-size: 1.8rem;
+          line-height: 1.9rem;
+
+          @media ${device.lg} {
+            font-size: 1.6rem;
+            line-height: 1.7rem;
+          }
           @media ${device.sm} {
             font-size: 2.2rem;
+            line-height: 2.5rem;
           }
           @media ${device.xs} {
             font-size: 2.4rem;
+            line-height: 2.8rem;
           }
         `;
       case "md":
         return css`
           font-size: 3.2rem;
+          line-height: 3.4rem;
         `;
       case "lg":
         return css`
           font-size: 5rem;
+          line-height: 5.2.rem;
         `;
       default:
         return css`
@@ -60,11 +74,5 @@ export const Text = styled.p<TextProps>`
 
   strong {
     font-weight: 700;
-  }
-
-  @media ${device.md} {
-    max-width: calc(100vw - 6rem);
-    margin-left: auto;
-    margin-right: auto;
   }
 `;

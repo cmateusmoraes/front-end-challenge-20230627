@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { device } from "@/styles/BreakPoints";
+
 type filterProp = {
   active?: boolean;
 };
@@ -15,6 +17,14 @@ export const Filter = styled.li<filterProp>`
   border-color: ${props =>
     props.active ? "var(--primaryColor)" : "var(--tertiaryColor)"};
 
+  @media ${device.lg} {
+    padding: 0.4rem 1.2rem;
+  }
+
+  @media ${device.md} {
+    padding: 0.4rem 1.6rem;
+  }
+
   &::before {
     content: " ";
     position: absolute;
@@ -29,12 +39,17 @@ export const Filter = styled.li<filterProp>`
     left: calc(50% - 0.5rem);
     transform: ${props => (props.active ? "scale(20)" : "scale(0)")};
     transition: all 0.25s ease-out;
+
+    @media ${device.sm} {
+      transform: ${props => (props.active ? "scale(30)" : "scale(0)")};
+    }
   }
 
   button {
     position: relative;
-    transition: all 0.25s ease-out;
+    padding: 0.8rem 0;
     color: ${props => (props.active ? "#FFFFFF" : "var(--tertiaryColor)")};
+    transition: all 0.25s ease-out;
   }
 
   &:first-child {
@@ -45,11 +60,13 @@ export const Filter = styled.li<filterProp>`
     margin-right: 0;
   }
 
-  &:hover {
-    border-color: var(--primaryColor);
+  @media (hover: hover) {
+    &:hover {
+      border-color: var(--primaryColor);
 
-    button {
-      color: ${props => (props.active ? "#FFFFFF" : "var(--primaryColor)")};
+      button {
+        color: ${props => (props.active ? "#FFFFFF" : "var(--primaryColor)")};
+      }
     }
   }
 `;

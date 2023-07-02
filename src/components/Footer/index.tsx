@@ -153,7 +153,7 @@ export function Footer() {
         </S.WrapperSiteMap>
         <S.WrapperCopy>
           <Text fontSize="xxs" color="#848eab">
-            Copyright © 2015 - 2022 Todos os direitos reservados | Leadster
+            Copyright © 2015 - 2023 Todos os direitos reservados | Leadster
           </Text>
 
           <Text fontSize="xxs" color="#848eab">

@@ -6,7 +6,7 @@ import { Text } from "@/components/ui/Text";
 
 export const SectionHero = styled.section`
   width: 100%;
-  height: calc(100vh - 32.7rem);
+  height: calc(100vh - 37rem);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,11 +15,23 @@ export const SectionHero = styled.section`
   @media ${device.xs} {
     padding: 1rem 1.5rem;
   }
+
+  @media ${device.sm} {
+    height: 60rem;
+  }
 `;
 
 export const WrapperText = styled.div`
   position: relative;
   margin-bottom: 1.3rem;
+
+  @media ${device.sm} {
+    p {
+      max-width: calc(100vw - 5rem);
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 `;
 
 export const Tag = styled.div`
@@ -40,6 +52,7 @@ export const Tag = styled.div`
 export const Title = styled(Text)`
   width: 100%;
   margin-bottom: 5.8rem;
+  line-height: 7.2rem;
 
   strong {
     color: var(--primaryColor);

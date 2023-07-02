@@ -14,6 +14,14 @@ export const WrapperAbout = styled(Container)`
   max-width: 1800px;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1820px) {
+    max-width: 1400px;
+  }
+
+  @media ${device.xl} {
+    max-width: 1140px;
+  }
 `;
 
 export const WrapperGraph = styled.div`
@@ -24,6 +32,10 @@ export const WrapperGraph = styled.div`
 
 export const WrapperInfo = styled.div`
   width: 45%;
+
+  p {
+    line-height: 4.8rem;
+  }
 `;
 
 export const WrapperCta = styled.div`

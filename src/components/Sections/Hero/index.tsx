@@ -16,7 +16,6 @@ export function Hero() {
             fontWeight="600"
             color="var(--primaryColor)"
             textAlign="center"
-            lineHeight="1.4rem"
           >
             WEBINARS EXCLUSIVOS
           </Text>
@@ -25,7 +24,6 @@ export function Hero() {
         <S.Title
           fontSize="lg"
           letterSpacing="-0.1rem"
-          lineHeight="7.2rem"
           textAlign="center"
           as="h1"
         >

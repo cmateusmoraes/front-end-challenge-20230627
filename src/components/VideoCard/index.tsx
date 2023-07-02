@@ -14,7 +14,7 @@ export default function VideoCard() {
           loading="lazy"
         />
         <S.CaptionVideo>
-          <Text fontSize="xs" fontWeight="800" lineHeight="2.5rem">
+          <Text fontSize="xs" fontWeight="800">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </Text>
         </S.CaptionVideo>

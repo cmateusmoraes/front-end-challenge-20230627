@@ -91,6 +91,27 @@ select {
   box-sizing: border-box;
 }
 
+/* Altera a largura da barra de rolagem */
+&::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Altera a cor de fundo da barra de rolagem */
+&::-webkit-scrollbar-track {
+  background-color: $black-color;
+}
+
+/* Altera a cor da alça da barra de rolagem */
+&::-webkit-scrollbar-thumb {
+  background-color: var(--primaryColor);
+  border-radius: 10px;
+}
+
+/* Altera a cor quando a alça da barra de rolagem é hover */
+&::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primaryColor);
+}
+
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

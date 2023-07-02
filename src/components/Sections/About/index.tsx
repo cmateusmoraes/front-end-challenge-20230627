@@ -14,11 +14,11 @@ export function About() {
     <S.SectionAbout id="about">
       <S.WrapperAbout bgBlue>
         <S.WrapperGraph>
-          <Image src={imgInfo} alt="Info" width={739} height={687} />
+          <Image src={imgInfo} alt="Info" width={739} />
         </S.WrapperGraph>
 
         <S.WrapperInfo>
-          <Text as="h2" fontSize="4.1rem" fontWeight="500" lineHeight="4.8rem">
+          <Text as="h2" fontSize="4.1rem" fontWeight="500">
             Pronto para triplicar sua
             <br />
             <strong>Geração de Leads?</strong>

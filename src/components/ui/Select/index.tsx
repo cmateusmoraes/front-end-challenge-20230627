@@ -15,6 +15,14 @@ export default function Select({ options, placeholder }: SelectProps) {
         container: baseStyles => ({
           ...baseStyles,
           width: "65%",
+          "@media only screen and (max-width: 820px)": {
+            width: "90%",
+            marginLeft: "10%",
+          },
+          "@media only screen and (max-width: 600px)": {
+            width: "75%",
+            marginLeft: "5%",
+          },
         }),
         control: baseStyles => ({
           ...baseStyles,
@@ -28,7 +36,11 @@ export default function Select({ options, placeholder }: SelectProps) {
         placeholder: baseStyles => ({
           ...baseStyles,
           fontWeight: 500,
+          fontSize: "1.6rem",
           color: "#2c3e50",
+          "@media only screen and (max-width: 1280px)": {
+            fontSize: "1.4rem",
+          },
         }),
       }}
     />

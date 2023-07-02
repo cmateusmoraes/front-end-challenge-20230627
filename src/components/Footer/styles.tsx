@@ -36,6 +36,7 @@ export const WrapperSiteMap = styled.div`
   padding: 4rem 0 8rem;
   border-bottom: 1px solid #d5d9dd;
 `;
+
 export const WrapperCol = styled.div`
   h3 {
     margin-bottom: 3.5rem;
@@ -46,6 +47,12 @@ export const WrapperCol = styled.div`
       text-decoration: none;
       line-height: 4rem;
       color: #848eab;
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        color: var(--primaryColor);
+        text-decoration: underline;
+      }
     }
   }
 `;

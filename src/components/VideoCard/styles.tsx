@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styled from "styled-components";
 
+import { device } from "@/styles/BreakPoints";
+
 export const VideoCard = styled.button`
   position: relative;
   overflow: hidden;
@@ -11,7 +13,11 @@ export const VideoCard = styled.button`
   figure {
     display: block;
     position: relative;
-    padding-bottom: 90px;
+    padding-bottom: 9rem;
+
+    @media ${device.md} {
+      padding-bottom: 7rem;
+    }
 
     &::before {
       content: " ";
@@ -31,25 +37,40 @@ export const VideoCard = styled.button`
     }
   }
 
-  &:hover {
-    box-shadow: -1px 4px 54px 0px rgba(0, 0, 0, 0.2);
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: -1px 4px 54px 0px rgba(0, 0, 0, 0.2);
 
-    & > img {
-      opacity: 1;
-      transform: scale(1);
-    }
-    figcaption {
-      height: 105px;
-    }
-
-    figure {
-      &::before {
-        opacity: 0.5;
-        transform: scale(20);
+      & > img {
+        opacity: 1;
+        transform: scale(1);
       }
 
-      img {
-        transform: translateY(5px) scale(1.03);
+      figcaption {
+        height: 10.5rem;
+
+        @media ${device.lg} {
+          height: 8.5rem;
+        }
+      }
+
+      figure {
+        &::before {
+          opacity: 0.5;
+          transform: scale(20);
+
+          @media (max-width: 600px) {
+            transform: scale(30);
+          }
+
+          @media ${device.sm} {
+            transform: scale(20);
+          }
+        }
+
+        img {
+          transform: translateY(5px) scale(1.03);
+        }
       }
     }
   }
@@ -88,6 +109,29 @@ export const CaptionVideo = styled.figcaption`
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 20px;
+  padding: 2rem;
   transition: all 0.2s ease-out;
+
+  @media ${device.lg} {
+    padding: 1.4rem 2rem;
+    height: 9rem;
+  }
+
+  @media ${device.md} {
+    padding: 1.3rem 2rem;
+    height: 7rem;
+  }
+
+  p {
+    line-height: 2.5rem;
+
+    @media ${device.lg} {
+      line-height: 2.3rem;
+    }
+
+    @media ${device.md} {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+  }
 `;

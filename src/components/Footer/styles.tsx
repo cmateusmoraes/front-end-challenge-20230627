@@ -8,12 +8,20 @@ export const Footer = styled.footer`
 
   p {
     margin-bottom: 1.5rem;
+    @media ${device.sm} {
+      text-align: center;
+    }
   }
 `;
 
 export const Social = styled.ul`
   display: flex;
   align-items: center;
+
+  @media ${device.sm} {
+    margin-top: 3.5rem;
+    justify-content: center;
+  }
 
   li {
     border-radius: 50%;
@@ -43,13 +51,20 @@ export const WrapperSiteMap = styled.div`
   border-bottom: 1px solid #d5d9dd;
 
   @media ${device.sm} {
-    flex-wrap: wrap;
+    display: block;
   }
 `;
 
 export const WrapperCol = styled.div`
   h3 {
     margin-bottom: 3.5rem;
+
+    @media ${device.sm} {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
   }
 
   li {
@@ -67,12 +82,18 @@ export const WrapperCol = styled.div`
       @media ${device.md} {
         font-size: 1.8rem;
       }
+
+      @media ${device.sm} {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 
   @media ${device.sm} {
     margin-bottom: 5rem;
-    width: 50%;
+    width: 100%;
   }
 `;
 

@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { Text } from "@/components/ui/Text";
+import { Text } from "@/components/UI/Text";
 import imgVideo from "@/assets/img/video4.jpg";
 import icoPlay from "@/assets/img/play.svg";
 

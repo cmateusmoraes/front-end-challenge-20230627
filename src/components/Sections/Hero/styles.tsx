@@ -2,7 +2,7 @@ import Image from "next/image";
 import styled from "styled-components";
 
 import { device } from "@/styles/BreakPoints";
-import { Text } from "@/components/ui/Text";
+import { Text } from "@/components/UI/Text";
 
 export const SectionHero = styled.section`
   width: 100%;

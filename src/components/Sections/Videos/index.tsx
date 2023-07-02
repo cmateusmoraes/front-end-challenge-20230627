@@ -1,10 +1,10 @@
 "use client";
 
-import Select from "@/components/ui/Select";
-import VideoCard from "@/components/VideoCard";
-import { Container } from "@/components/ui/Container";
-import { Text } from "@/components/ui/Text";
-import { FilterTag } from "@/components/ui/FilterTag";
+import Select from "@/components/UI/Select";
+import VideoCard from "@/components/UI/VideoCard";
+import { Container } from "@/components/UI/Container";
+import { Text } from "@/components/UI/Text";
+import { FilterTag } from "@/components/UI/FilterTag";
 
 import * as S from "./styles";
 

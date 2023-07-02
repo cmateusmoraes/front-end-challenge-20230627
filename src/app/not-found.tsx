@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import styled from "styled-components";
 
-import { Text } from "@/components/ui/Text";
-import { Container } from "@/components/ui/Container";
+import { Text } from "@/components/UI/Text";
+import { Container } from "@/components/UI/Container";
 
 import imgArrow from "@/assets/img/arrow.svg";
 import img404 from "@/assets/img/404.png";

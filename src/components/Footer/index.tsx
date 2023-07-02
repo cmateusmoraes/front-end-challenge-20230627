@@ -1,7 +1,7 @@
 "use client";
 
-import { Container } from "@/components/ui/Container";
-import { Text } from "../ui/Text";
+import { Container } from "@/components/UI/Container";
+import { Text } from "../UI/Text";
 
 import * as S from "./styles";
 

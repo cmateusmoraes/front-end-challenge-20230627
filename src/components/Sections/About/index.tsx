@@ -2,21 +2,21 @@
 
 import Image from "next/image";
 
-import { Text } from "@/components/ui/Text";
-import { Button } from "@/components/ui/Button/styles";
+import { Text } from "@/components/UI/Text";
+import { Button } from "@/components/UI/Button/styles";
 import * as S from "./styles";
 
-import imgInfo from "@/assets/img/info.png";
 import imgBadge from "@/assets/img/selo-RDStation.png";
 import imgNoCredit from "@/assets/img/no-credit-card.svg";
 import imgRating from "@/assets/img/rating.webp";
+import { Chart } from "@/components/UI/Chart";
 
 export function About() {
   return (
     <S.SectionAbout id="about">
       <S.WrapperAbout bgBlue>
         <S.WrapperGraph>
-          <Image src={imgInfo} alt="Info" width={739} />
+          <Chart />
         </S.WrapperGraph>
 
         <S.WrapperInfo>

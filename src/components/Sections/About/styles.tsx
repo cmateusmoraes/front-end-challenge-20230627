@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styled from "styled-components";
 
-import { Container } from "@/components/ui/Container";
-import { Text } from "@/components/ui/Text";
+import { Container } from "@/components/UI/Container";
+import { Text } from "@/components/UI/Text";
 import { device } from "@/styles/BreakPoints";
 
 export const SectionAbout = styled.section`

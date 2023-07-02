@@ -8,7 +8,7 @@ export const VideoCard = styled.button`
   overflow: hidden;
   border-radius: 15px;
   box-shadow: -1px 4px 54px 0px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease-out;
+  transform-origin: bottom center;
 
   figure {
     display: block;

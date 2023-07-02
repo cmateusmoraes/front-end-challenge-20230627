@@ -11,6 +11,7 @@ export const SectionHero = styled.section`
   align-items: center;
   justify-content: center;
   background-color: var(--bgColorSecondary);
+  opacity: 0;
 
   @media ${device.xs} {
     padding: 1rem 1.5rem;
@@ -81,7 +82,8 @@ export const LeadsterDetail = styled(Image)`
   height: 7rem;
   left: 50%;
   margin-left: 28.8rem;
-  top: 10.8rem;
+  top: 5.8rem;
+  transform-origin: left bottom;
 
   @media ${device.sm} {
     margin-left: 18rem;

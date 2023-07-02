@@ -33,7 +33,7 @@ export function Footer() {
           scrollTrigger: {
             trigger: footer.current,
             scrub: false,
-            start: "50% bottom",
+            start: "30% bottom",
             toggleActions: "play pause resume reverse",
           },
         })

@@ -1,3 +1,6 @@
+"use client";
+
+import { useLayoutEffect, useRef } from "react";
 import { gsap, Power1, Back } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -10,13 +13,13 @@ import imgForms from "@/assets/img/formulario.png";
 import imgSmileLove from "@/assets/img/in-love-emoji-svgrepo-com.svg";
 import imgSmileCrying from "@/assets/img/crying-emoji-svgrepo-com.svg";
 import imgSmileConfused from "@/assets/img/confused-emoji-svgrepo-com.svg";
-import { useLayoutEffect, useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.config({ nullTargetWarn: false });
 
 export function Chart() {
+  const chart = useRef(null);
   const bgChart = useRef(null);
   const bgPlus = useRef(null);
   const free = useRef(null);
@@ -45,10 +48,10 @@ export function Chart() {
       tl.current = gsap
         .timeline({
           scrollTrigger: {
-            trigger: ".chart",
+            trigger: chart.current,
             scrub: false,
             start: "70% bottom",
-            toggleActions: "play pause resume reset",
+            toggleActions: "play pause resume reverse",
           },
         })
         .fromTo(
@@ -59,8 +62,8 @@ export function Chart() {
         )
         .fromTo(
           bgPlus.current,
-          { autoAlpha: 0, x: 50 },
-          { autoAlpha: 1, x: 0, duration: 1 },
+          { autoAlpha: 0, scale: 0, x: 50 },
+          { autoAlpha: 1, scale: 1, x: 0, duration: 2 },
           "-=0.4"
         )
         .fromTo(
@@ -74,7 +77,7 @@ export function Chart() {
             duration: 0.8,
             ease: Back.easeOut.config(1),
           },
-          "-=0.4"
+          "-=1"
         )
         .fromTo(
           bar1.current,
@@ -164,14 +167,14 @@ export function Chart() {
           },
           "-=0.2"
         )
-        .duration(4);
-    }, ".chart");
+        .duration(4.5);
+    }, chart);
     return () => ctx.revert();
   }, []);
 
   return (
     <S.WrapperChart>
-      <S.WrapperBar right="406px" bottom="117px" className="chart">
+      <S.WrapperBar right="406px" bottom="117px" ref={chart}>
         <S.Solution
           ref={solution1}
           src={imgForms}

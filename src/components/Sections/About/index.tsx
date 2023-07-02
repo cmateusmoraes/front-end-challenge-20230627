@@ -1,13 +1,15 @@
 "use client";
 
 import Image from "next/image";
+
+import { Text } from "@/components/ui/Text";
+import { Button } from "@/components/ui/Button/styles";
 import * as S from "./styles";
+
 import imgInfo from "@/assets/img/info.png";
 import imgBadge from "@/assets/img/selo-RDStation.png";
 import imgNoCredit from "@/assets/img/no-credit-card.svg";
 import imgRating from "@/assets/img/rating.webp";
-import { Text } from "@/components/ui/Text";
-import { Button } from "@/components/ui/Button/styles";
 
 export function About() {
   return (

@@ -7,7 +7,7 @@ import { device } from "@/styles/BreakPoints";
 
 export const SectionAbout = styled.section`
   background-color: var(--bgColorSecondary);
-  padding: 10rem 0 0;
+  padding: 10rem 0 4rem;
 `;
 export const WrapperAbout = styled(Container)`
   display: flex;
@@ -24,6 +24,7 @@ export const WrapperAbout = styled(Container)`
   }
 
   @media ${device.md} {
+    padding-bottom: 5rem;
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;

@@ -30,7 +30,7 @@ export const WrapperChart = styled.div`
   @media ${device.sm} {
     width: 100vw;
     height: 100vw;
-    transform: scale(0.6) translateX(20rem) translateY(20rem);
+    transform: scale(0.64) translateX(20rem) translateY(20rem);
   }
 
   @media (max-width: 390px) {
@@ -38,11 +38,15 @@ export const WrapperChart = styled.div`
   }
 
   @media ${device.xs} {
-    transform: scale(0.58) translateX(26rem) translateY(20rem);
+    transform: scale(0.58) translateX(26rem) translateY(22rem);
   }
 
-  @media (max-width: 360px) {
-    transform: scale(0.56) translateX(30rem) translateY(20rem);
+  @media ${device.xxs} {
+    transform: scale(0.58) translateX(30rem) translateY(26rem);
+  }
+
+  @media ${device.xxxs} {
+    transform: scale(0.52) translateX(32rem) translateY(30rem);
   }
 `;
 

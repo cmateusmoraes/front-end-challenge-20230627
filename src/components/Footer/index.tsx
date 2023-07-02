@@ -1,5 +1,9 @@
 "use client";
 
+import { useLayoutEffect, useRef } from "react";
+import { gsap, Power1 } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import { Container } from "@/components/ui/Container";
 import { Text } from "../ui/Text";
 
@@ -7,16 +11,69 @@ import * as S from "./styles";
 
 import imgLogo from "@/assets/img/logo-leadster.gif";
 
+gsap.registerPlugin(ScrollTrigger);
+
 export function Footer() {
+  const footer = useRef(null);
+  const logo = useRef(null);
+  const text = useRef(null);
+  const sitemap = useRef(null);
+  const copy = useRef(null);
+
+  const tl = useRef(
+    gsap.timeline({
+      ease: Power1.easeOut,
+    })
+  );
+
+  useLayoutEffect(() => {
+    const ctx = gsap.context(() => {
+      tl.current = gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: footer.current,
+            scrub: false,
+            start: "50% bottom",
+            toggleActions: "play pause resume reverse",
+          },
+        })
+        .fromTo(
+          logo.current,
+          { autoAlpha: 0, y: 30 },
+          { autoAlpha: 1, y: 0, duration: 0.5 },
+          0
+        )
+        .fromTo(
+          text.current,
+          { autoAlpha: 0, y: 30 },
+          { autoAlpha: 1, y: 0, duration: 0.5 },
+          "-=0.2"
+        )
+        .fromTo(
+          sitemap.current,
+          { autoAlpha: 0, y: 30 },
+          { autoAlpha: 1, y: 0, duration: 0.5 },
+          "-=0.2"
+        )
+        .fromTo(
+          copy.current,
+          { autoAlpha: 0, y: 30 },
+          { autoAlpha: 1, y: 0, duration: 0.5 },
+          "-=0.2"
+        );
+    }, footer);
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <S.Footer>
+    <S.Footer ref={footer}>
       <Container>
-        <S.Logo src={imgLogo} loading="lazy" alt="Leadster" />
-        <Text fontSize="xxs" textAlign="center">
+        <S.Logo src={imgLogo} loading="lazy" alt="Leadster" ref={logo} />
+        <Text fontSize="xxs" textAlign="center" ref={text}>
           Transformando Visitantes em clientes.
         </Text>
 
-        <S.WrapperSiteMap>
+        <S.WrapperSiteMap ref={sitemap}>
           <S.WrapperCol>
             <Text as="h3" fontWeight="600" fontSize="sm">
               Links Principais
@@ -157,7 +214,8 @@ export function Footer() {
             </Text>
           </S.WrapperCol>
         </S.WrapperSiteMap>
-        <S.WrapperCopy>
+
+        <S.WrapperCopy ref={copy}>
           <Text fontSize="xxs" color="#848eab">
             Copyright © 2015 - 2023 Todos os direitos reservados | Leadster
           </Text>

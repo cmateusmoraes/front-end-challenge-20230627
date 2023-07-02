@@ -8,6 +8,8 @@ export const FilterWrapper = styled.header`
   align-items: center;
   justify-content: center;
   padding: 9.5rem 0 2.5rem;
+  opacity: 0;
+  transform: translateY(20px);
   z-index: 10;
 
   @media (max-width: 820px) {
@@ -47,6 +49,8 @@ export const SelectWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  opacity: 0;
+  transform: translateY(20px);
 
   label {
     width: 35%;
@@ -82,6 +86,8 @@ export const VideosWrapper = styled.div`
   grid-gap: 4rem;
   border-top: 1px solid #d5d9dd;
   border-bottom: 1px solid #d5d9dd;
+  opacity: 0;
+  transform: translateY(20px);
 
   @media ${device.sm} {
     grid-template-columns: repeat(2, 1fr);

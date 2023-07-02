@@ -27,6 +27,16 @@ export const FilterList = styled.ul`
   align-items: center;
   justify-content: flex-start;
 
+  li {
+    &:last-child {
+      display: none;
+
+      @media ${device.sm} {
+        display: block;
+      }
+    }
+  }
+
   @media ${device.lg} {
     width: 68%;
   }

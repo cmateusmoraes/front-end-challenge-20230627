@@ -22,7 +22,12 @@ export function Header() {
         .timeline()
         .to(
           logo.current,
-          { autoAlpha: 1, scale: 1, ease: Back.easeOut.config(1), duration: 1 },
+          {
+            autoAlpha: 1,
+            scale: 1,
+            ease: Back.easeOut.config(1),
+            duration: 0.5,
+          },
           0
         );
     }, logo);

@@ -87,10 +87,10 @@ export const LeadsterDetail = styled(Image)`
 
   @media ${device.sm} {
     margin-left: 18rem;
-    top: 11.5rem;
+    top: 06.5rem;
   }
 
   @media ${device.xs} {
-    top: 13rem;
+    top: 6rem;
   }
 `;

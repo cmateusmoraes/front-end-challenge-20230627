@@ -43,6 +43,10 @@ export function Videos() {
     console.log("Filter");
   };
 
+  const handleClearFilter = () => {
+    console.log("Filter");
+  };
+
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
       tl.current = gsap
@@ -69,6 +73,7 @@ export function Videos() {
               onClick={handleClickFilter}
             />
           ))}
+          <FilterTag label="Todos" onClick={handleClearFilter} />
         </S.FilterList>
 
         <S.SelectWrapper ref={select}>

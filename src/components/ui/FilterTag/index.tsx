@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import { Text } from "@/components/UI/Text";
+import { Text } from "@/components/ui/Text";
 
-import * as S from "@/components/UI/FilterTag/styles";
+import * as S from "@/components/ui/FilterTag/styles";
 
 type FilterTagProps = {
   label: string;

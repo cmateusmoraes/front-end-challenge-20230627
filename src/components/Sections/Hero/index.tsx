@@ -1,6 +1,6 @@
 "use client";
 
-import { Text } from "@/components/UI/Text";
+import { Text } from "@/components/ui/Text";
 
 import * as S from "./styles";
 

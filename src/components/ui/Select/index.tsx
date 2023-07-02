@@ -11,6 +11,7 @@ export default function Select({ options, placeholder }: SelectProps) {
       options={options}
       id="select-filters"
       placeholder={placeholder}
+      isSearchable={false}
       styles={{
         container: baseStyles => ({
           ...baseStyles,

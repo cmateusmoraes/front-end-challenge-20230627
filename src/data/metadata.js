@@ -13,7 +13,7 @@ export const metadataInfo = {
     siteName: titleShare,
     images: [
       {
-        url: `${urlShare}/image/img-share.jpg"`,
+        url: `${urlShare}/image/img-share.jpg`,
         width: 800,
         height: 546,
       },
@@ -27,6 +27,6 @@ export const metadataInfo = {
     description: descriptionShare,
     creator: "@cmateusmoraes",
     creatorId: "1467726470533754880",
-    images: [`${urlShare}/image/img-share.jpg"`],
+    images: [`${urlShare}/image/img-share.jpg`],
   },
 };

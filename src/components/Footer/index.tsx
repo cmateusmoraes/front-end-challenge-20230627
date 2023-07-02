@@ -93,6 +93,8 @@ export function Footer() {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/cmateusmoraes/"
+                  rel="noopener noreferrer"
+                  aria-label="Acessar Linkedin"
                 >
                   <svg
                     stroke="#848eab"
@@ -110,6 +112,8 @@ export function Footer() {
                 <a
                   target="_blank"
                   href="https://www.facebook.com/leadsterplatform?utm_source=vaga_front&amp;utm_medium=contrata&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Branding_leadster&amp;gad=1&amp;gclid=Cj0KCQjwnf-kBhCnARIsAFlg493VF0H3A_ZU7WDTfLFnvd1cO40Klm_5Pg72gUM4W0YLVZmjxalMjBsaAiFDEALw_wcB?utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Branding_leadster&amp;gad=1&amp;gclid=Cj0KCQjwnf-kBhCnARIsAFlg493VF0H3A_ZU7WDTfLFnvd1cO40Klm_5Pg72gUM4W0YLVZmjxalMjBsaAiFDEALw_wcB?utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Branding_leadster&amp;gad=1&amp;gclid=Cj0KCQjwnf-kBhCnARIsAFlg493VF0H3A_ZU7WDTfLFnvd1cO40Klm_5Pg72gUM4W0YLVZmjxalMjBsaAiFDEALw_wcB?utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Mateus_Moraes_cmateusmoraes@gmail"
+                  rel="noopener noreferrer"
+                  aria-label="Acessar Facebook"
                 >
                   <svg
                     stroke="#848eab"
@@ -127,6 +131,8 @@ export function Footer() {
                 <a
                   target="_blank"
                   href="https://www.instagram.com/leadster.com.br/?utm_source=vaga_front&amp;utm_medium=contrata&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Branding_leadster&amp;gad=1&amp;gclid=Cj0KCQjwnf-kBhCnARIsAFlg493VF0H3A_ZU7WDTfLFnvd1cO40Klm_5Pg72gUM4W0YLVZmjxalMjBsaAiFDEALw_wcB?utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Branding_leadster&amp;gad=1&amp;gclid=Cj0KCQjwnf-kBhCnARIsAFlg493VF0H3A_ZU7WDTfLFnvd1cO40Klm_5Pg72gUM4W0YLVZmjxalMjBsaAiFDEALw_wcB?utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Branding_leadster&amp;gad=1&amp;gclid=Cj0KCQjwnf-kBhCnARIsAFlg493VF0H3A_ZU7WDTfLFnvd1cO40Klm_5Pg72gUM4W0YLVZmjxalMjBsaAiFDEALw_wcB?utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=bofu_pql_CA_search_branding_leadster&amp;utm_term={leadster}&amp;utm_content=CJ_leadster&amp;utm_source=branding&amp;utm_medium=cpc&amp;utm_campaign=Mateus_Moraes_cmateusmoraes@gmail"
+                  rel="noopener noreferrer"
+                  aria-label="Acessar Instagram"
                 >
                   <svg
                     stroke="#848eab"

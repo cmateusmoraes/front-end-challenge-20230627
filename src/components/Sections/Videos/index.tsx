@@ -34,8 +34,8 @@ export function Videos() {
         <S.FilterList>
           {filterData.map((item, index) => (
             <FilterTag
-              label={item.label}
               key={index}
+              label={item.label}
               onClick={handleClickFilter}
             />
           ))}

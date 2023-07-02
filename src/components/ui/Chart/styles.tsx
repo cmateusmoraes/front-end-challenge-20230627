@@ -30,7 +30,19 @@ export const WrapperChart = styled.div`
   @media ${device.sm} {
     width: 100vw;
     height: 100vw;
-    transform: scale(0.58) translateX(20rem) translateY(20rem);
+    transform: scale(0.6) translateX(20rem) translateY(20rem);
+  }
+
+  @media (max-width: 390px) {
+    transform: scale(0.59) translateX(22rem) translateY(20rem);
+  }
+
+  @media ${device.xs} {
+    transform: scale(0.58) translateX(26rem) translateY(20rem);
+  }
+
+  @media (max-width: 360px) {
+    transform: scale(0.56) translateX(30rem) translateY(20rem);
   }
 `;
 
@@ -70,6 +82,18 @@ export const Free = styled.div`
   color: #ffffff;
   font-size: 22px;
   z-index: 2;
+
+  @media ${device.sm} {
+    right: 430px;
+    width: 200px;
+    font-size: 26px;
+  }
+
+  @media (max-width: 390px) {
+    right: 420px;
+    width: 190px;
+    font-size: 24px;
+  }
 `;
 
 type WrapperBarProps = {
@@ -97,6 +121,7 @@ export const Bar = styled.div<BarProps>`
   border-radius: 20px;
   background-color: ${props =>
     props.leadster ? "var(--primaryColor)" : "#e9ecee"};
+  transform-origin: bottom;
 `;
 
 type NumberLeadsProps = {
@@ -120,13 +145,13 @@ export const NumberLeads = styled.div<NumberLeadsProps>`
 `;
 
 type SolutionProps = {
-  pxToCenter: string;
+  $pxToCenter: string;
 };
 
 export const Solution = styled(Image)<SolutionProps>`
   display: block;
   max-width: unset;
-  margin-left: ${props => props.pxToCenter ?? "0"};
+  margin-left: ${props => props.$pxToCenter ?? "0"};
   margin-bottom: 5px;
 `;
 

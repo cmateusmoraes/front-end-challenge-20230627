@@ -52,6 +52,22 @@ export const WrapperGraph = styled.div`
 export const WrapperInfo = styled.div`
   width: 45%;
 
+  h2 {
+    @media ${device.xs} {
+      font-size: 4.1rem;
+      line-height: 4.8rem;
+    }
+
+    @media (max-width: 390px) {
+      font-size: 3.6rem;
+    }
+
+    @media ${device.xs} {
+      font-size: 4.3rem;
+      line-height: 4.8rem;
+    }
+  }
+
   p {
     line-height: 4.8rem;
   }

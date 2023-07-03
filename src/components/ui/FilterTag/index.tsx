@@ -6,17 +6,15 @@ import * as S from "@/components/ui/FilterTag/styles";
 
 type FilterTagProps = {
   label: string;
+  isActive: boolean;
   onClick: () => void;
 };
 
-export function FilterTag({ label, onClick }: FilterTagProps) {
-  const [isActive, setIsActive] = useState(false);
-
+export function FilterTag({ label, isActive, onClick }: FilterTagProps) {
   return (
     <S.Filter
       onClick={() => {
-        setIsActive(!isActive);
-        onClick;
+        onClick();
       }}
       active={isActive}
     >

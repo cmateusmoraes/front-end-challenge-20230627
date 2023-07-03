@@ -19,6 +19,46 @@ export const VideoCard = styled.button`
       padding-bottom: 7rem;
     }
 
+    @media ${device.lg} {
+      padding-bottom: 8rem;
+    }
+
+    img {
+      height: 19.5rem;
+      object-fit: cover;
+      object-position: center;
+
+      @media ${device.lg} {
+        height: 16.5rem;
+      }
+
+      @media ${device.sm} {
+        height: 22rem;
+      }
+
+      @media (max-width: 600px) {
+        height: 30rem;
+      }
+
+      @media (max-width: 425px) {
+        height: 26rem;
+      }
+
+      @media ${device.sm} {
+        height: 30rem;
+      }
+    }
+
+    figcaption {
+      p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+    }
+
     &::before {
       content: " ";
       position: absolute;
@@ -59,12 +99,12 @@ export const VideoCard = styled.button`
           opacity: 0.5;
           transform: scale(20);
 
-          @media (max-width: 600px) {
-            transform: scale(30);
-          }
-
           @media ${device.sm} {
             transform: scale(20);
+          }
+
+          @media (max-width: 600px) {
+            transform: scale(40);
           }
         }
 
@@ -120,6 +160,11 @@ export const CaptionVideo = styled.figcaption`
   @media ${device.md} {
     padding: 1.3rem 2rem;
     height: 7rem;
+  }
+
+  @media ${device.sm} {
+    padding: 1.6rem 2rem;
+    height: 9rem;
   }
 
   p {

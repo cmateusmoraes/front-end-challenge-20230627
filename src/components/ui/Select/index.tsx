@@ -1,62 +1,58 @@
-import ReactSelect from "react-select";
+import React from "react";
+import * as S from "./styles";
 
-type SelectProps = {
-  options: string[];
-  placeholder: string;
+type Allowed = string | number;
+
+type BaseProps<Value> = {
+  value: Value;
+  onChange: (newValue: Value) => void;
+  options: readonly Value[];
+  mapOptionToLabel?: (option: Value) => Allowed;
+  mapOptionToValue?: (option: Value) => Allowed;
 };
 
-export default function Select({ options, placeholder }: SelectProps) {
+type Props<Value> = Value extends Allowed
+  ? BaseProps<Value>
+  : Required<BaseProps<Value>>;
+
+const isAllowed = (v: any): v is Allowed =>
+  typeof v === "string" || typeof v === "number";
+
+export function CustomSelect<Value>({
+  value,
+  onChange,
+  options,
+  mapOptionToLabel,
+  mapOptionToValue,
+}: Props<Value>) {
+  const toLabel = (option: Value): Allowed => {
+    if (mapOptionToLabel) {
+      return mapOptionToLabel(option);
+    }
+    // if our props are provided correctly, this should never be false
+    return isAllowed(option) ? option : String(option);
+  };
+
+  const toValue = (option: Value): Allowed => {
+    if (mapOptionToValue) {
+      return mapOptionToValue(option);
+    }
+    return isAllowed(option) ? option : String(option);
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    onChange(options[e.target.selectedIndex]);
+  };
+
   return (
-    <ReactSelect
-      options={options}
-      id="select-filters"
-      placeholder={placeholder}
-      isSearchable={false}
-      styles={{
-        container: baseStyles => ({
-          ...baseStyles,
-          width: "65%",
-          "@media only screen and (max-width: 820px)": {
-            width: "90%",
-            marginLeft: "10%",
-          },
-          "@media only screen and (max-width: 600px)": {
-            width: "75%",
-            marginLeft: "5%",
-          },
-
-          "@media only screen and (max-width: 768px)": {
-            width: "70%",
-            marginLeft: "5%",
-          },
-        }),
-        control: baseStyles => ({
-          ...baseStyles,
-          borderRadius: "9px",
-          borderColor: "#2c3e50",
-        }),
-        input: baseStyles => ({
-          ...baseStyles,
-          color: "#2c3e50",
-        }),
-        placeholder: baseStyles => ({
-          ...baseStyles,
-          fontWeight: 500,
-          fontSize: "1.6rem",
-          color: "#2c3e50",
-          "@media only screen and (max-width: 1280px)": {
-            fontSize: "1.4rem",
-          },
-
-          "@media only screen and (max-width: 990px)": {
-            fontSize: "1.8rem",
-          },
-
-          "@media only screen and (max-width: 768px)": {
-            fontSize: "2rem",
-          },
-        }),
-      }}
-    />
+    <S.WrapperSelect>
+      <S.Select value={toValue(value)} onChange={handleChange}>
+        {options.map(value => (
+          <option value={toValue(value)} key={toValue(value)}>
+            {toLabel(value)}
+          </option>
+        ))}
+      </S.Select>
+    </S.WrapperSelect>
   );
 }

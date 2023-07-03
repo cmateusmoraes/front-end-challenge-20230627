@@ -3,6 +3,7 @@
 import { Analytics } from "@vercel/analytics/react";
 import StyledComponentsRegistry from "./registry";
 import { Plus_Jakarta_Sans as PlusJakartaSans } from "next/font/google";
+import { ReactQueryProvider } from "@/providers/ReactQueryProvider";
 
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -14,6 +15,7 @@ const plusJakartaSans = PlusJakartaSans({
   style: ["normal"],
   subsets: ["latin"],
   display: "auto",
+  variable: "--font-jakarta",
 });
 
 export default function RootLayout({
@@ -22,17 +24,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
-      <StyledComponentsRegistry>
-        <body className={plusJakartaSans.className}>
-          <Header />
+    <ReactQueryProvider>
+      <html lang="pt-BR">
+        <StyledComponentsRegistry>
+          <body className={plusJakartaSans.className}>
+            <Header />
 
-          {children}
+            {children}
 
-          <Footer />
-          <Analytics />
-        </body>
-      </StyledComponentsRegistry>
-    </html>
+            <Footer />
+            <Analytics />
+          </body>
+        </StyledComponentsRegistry>
+      </html>
+    </ReactQueryProvider>
   );
 }

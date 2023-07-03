@@ -7,12 +7,25 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Text } from "@/components/ui/Text";
 import * as S from "./styles";
 
-import imgVideo from "@/assets/img/video4.jpg";
 import icoPlay from "@/assets/img/play.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function VideoCard() {
+interface VideoCardProps {
+  id: string;
+  title: string;
+  thumb: {
+    url: string;
+    width: number;
+    height: number;
+  };
+}
+
+export default function VideoCard({
+  id,
+  title,
+  thumb: { url, width, height },
+}: VideoCardProps) {
   const video = useRef(null);
 
   const tl = useRef(
@@ -28,7 +41,7 @@ export default function VideoCard() {
           scrollTrigger: {
             trigger: video.current,
             scrub: false,
-            start: "bottom bottom",
+            start: "10% bottom",
           },
         })
         .fromTo(
@@ -46,13 +59,15 @@ export default function VideoCard() {
       <S.IcoPlay src={icoPlay} alt="Ver vídeo" loading="lazy" />
       <figure>
         <S.ImageVideo
-          src={imgVideo}
-          alt="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          src={url}
+          alt={title}
+          width={width}
+          height={height}
           loading="lazy"
         />
         <S.CaptionVideo>
           <Text fontSize="xs" fontWeight="800">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            {title}
           </Text>
         </S.CaptionVideo>
       </figure>

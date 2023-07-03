@@ -1,0 +1,1560 @@
+[
+    {
+        "kind": "youtube#searchResult",
+        "etag": "5GbY6rYpe2lKgQvRU_7RgCuV1L8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "3aK_5gyN9fo"
+        },
+        "snippet": {
+            "publishedAt": "2020-05-18T19:02:37Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como personalizar a conversa de acordo com a pagina de acesso",
+            "description": "Como um vendedor dentro de uma loja aborda os clientes e realiza uma conversa alinhada com sua seção de interesse, você ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/3aK_5gyN9fo/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/3aK_5gyN9fo/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/3aK_5gyN9fo/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-05-18T19:02:37Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "E3BuMhvknIaQF7FkcTNZJBfG5-M",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "RTUv2XqBCYY"
+        },
+        "snippet": {
+            "publishedAt": "2023-03-24T10:15:02Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como a extinção dos cookies third-party afeta os resultados de Mídia Paga?",
+            "description": "Descubra como a extinção dos cookies third-party afeta os resultados de Mídia Paga. ================= Neste corte do ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/RTUv2XqBCYY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/RTUv2XqBCYY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/RTUv2XqBCYY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-03-24T10:15:02Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "y4-fQWQUeBi_ybXvUZLi93QBk8k",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "TNO96OtJo0o"
+        },
+        "snippet": {
+            "publishedAt": "2023-03-08T10:00:28Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Model-Channel Fit: Entenda em quais canais atuar a partir do seu Modelo de Negócio",
+            "description": "O \"model-channel fit\" revela em quais canais você poderá atuar a partir do seu modelo de negócio. Entenda mais sobre o ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/TNO96OtJo0o/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/TNO96OtJo0o/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/TNO96OtJo0o/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-03-08T10:00:28Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "kx-KLcWW9vNNfWUAPEitfYbXBQ0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "jNxp2hwuFD0"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:54:40Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Integração entre Leadster &amp; Fleeg",
+            "description": "Tutorial de integração entre as plataformas Leadster e Fleeg.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/jNxp2hwuFD0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/jNxp2hwuFD0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/jNxp2hwuFD0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:54:40Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "TVBiMO2puQhRw7CI07HyAHa0ej4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "sgddXeJfR64"
+        },
+        "snippet": {
+            "publishedAt": "2023-03-23T11:30:31Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Qual a diferença entre os cookies first-party e third-party?",
+            "description": "Descubra a diferença entre os cookies first-party e third-party. ================= Neste corte do webinar \"O Futuro do ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/sgddXeJfR64/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/sgddXeJfR64/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/sgddXeJfR64/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-03-23T11:30:31Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "6xFTRmM8cBKbrmDkC5HfsDRRpdI",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "D2xl7BKaPEQ"
+        },
+        "snippet": {
+            "publishedAt": "2022-06-28T16:48:09Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como pronunciar SEO do jeito certo? (Search Engine Optimization)",
+            "description": "Descubra como pronunciar SEO do jeito certo nesse vídeo com Rafael Simões, especialista em Otimização de Sites.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/D2xl7BKaPEQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/D2xl7BKaPEQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/D2xl7BKaPEQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-06-28T16:48:09Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "duTaKAeapWqvVeG6lCNWJMZMcj0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "PHAfkczqlMY"
+        },
+        "snippet": {
+            "publishedAt": "2023-03-02T10:00:25Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Estratégias de curto e longo prazo no Marketing Digital",
+            "description": "Descubra a importância de encontrar um equilíbrio entre estratégias de curto e longo prazo no Marketing Digital.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/PHAfkczqlMY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/PHAfkczqlMY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/PHAfkczqlMY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-03-02T10:00:25Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "3IO26LFgFWGjtzpgUFd5gi8mxoM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "pZT36qh7eQ0"
+        },
+        "snippet": {
+            "publishedAt": "2021-06-30T20:59:15Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Entenda a diferença de leads completos e incompletos",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/pZT36qh7eQ0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/pZT36qh7eQ0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/pZT36qh7eQ0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-06-30T20:59:15Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "6J33VIAkDjJMQKacZEdXu1wM8TM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "kvZxxVLApxw"
+        },
+        "snippet": {
+            "publishedAt": "2021-06-22T18:00:14Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Leadster - Triplique sua Geração de Leads com o Marketing Conversacional",
+            "description": "Descubra como a plataforma de Marketing Conversacional da Leadster Aumenta em até 3x sua Geração de Leads Qualificados!",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/kvZxxVLApxw/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/kvZxxVLApxw/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/kvZxxVLApxw/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-06-22T18:00:14Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "1oKyKFlnpdCn4DRrT41gKdUvrUY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "XIBdJjahUkM"
+        },
+        "snippet": {
+            "publishedAt": "2022-09-02T17:40:56Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster",
+            "description": "Veja como colocar um chatbot de geração de leads em seu site de forma gratuita e em menos de 10 minutos.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/XIBdJjahUkM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/XIBdJjahUkM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/XIBdJjahUkM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-09-02T17:40:56Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "qRnDRvjWsbSprFv_E3cX7KbQuFM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "749l4AJrUeQ"
+        },
+        "snippet": {
+            "publishedAt": "2019-11-08T22:14:26Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Case de Sucesso: parceria W12 e Leadster",
+            "description": "A Neurologic agora é Leadster! Como a W12 conseguiu aumentar a geração de leads do site em parceria com a Leadster?",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/749l4AJrUeQ/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/749l4AJrUeQ/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/749l4AJrUeQ/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2019-11-08T22:14:26Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "unodp7vxlQMern07H03VFYx_Bfg",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "-cqQTHkOnX4"
+        },
+        "snippet": {
+            "publishedAt": "2021-01-18T20:33:34Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Tour pela Plataforma da Leadster",
+            "description": "Descubra como utilizar o Marketing Conversacional para aumentar a geração de leads de seu site! Se ainda não criou sua conta, ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/-cqQTHkOnX4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/-cqQTHkOnX4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/-cqQTHkOnX4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-01-18T20:33:34Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "3zQKaFXwoAqptgQMuY-5PF0Sjwc",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "GzOx0c6UPl4"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:44:42Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Disparo de eventos para novo Google Analytics GA4",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/GzOx0c6UPl4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/GzOx0c6UPl4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/GzOx0c6UPl4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:44:42Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "-TbnmDiTQOeh8cvC7NqCxVCEzJc",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "45fD1JW_nT8"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:42:44Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como funciona o teste grátis da Leadster",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/45fD1JW_nT8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/45fD1JW_nT8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/45fD1JW_nT8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:42:44Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "sdxeeo1ndkMMdoqJ9NaoyA2AYdo",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "WTabj8UO-yc"
+        },
+        "snippet": {
+            "publishedAt": "2020-03-09T19:32:43Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Leadster - Aumente sua Geração de Leads",
+            "description": "A Neurologic agora é Leadster! Leadster é pioneira em Marketing Conversacional do Brasil e já ajudou mais de 200 sites a ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/WTabj8UO-yc/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/WTabj8UO-yc/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/WTabj8UO-yc/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-03-09T19:32:43Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "tk_-67pyB5rAfTrO6b8bhDYfL7w",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "kOAH3rUDZ0M"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:46:21Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como ativar a Leadster pelo Wordpress",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/kOAH3rUDZ0M/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/kOAH3rUDZ0M/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/kOAH3rUDZ0M/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:46:21Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "dGghu9IhQROgPO12K6E4EMGHFok",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "n6x4blVLYP4"
+        },
+        "snippet": {
+            "publishedAt": "2023-03-10T10:00:27Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Startups: O que fazer após captar os primeiros clientes?",
+            "description": "Veja os próximos passos para sua startup após a conquista dos primeiros clientes. ================= Neste corte da mentoria ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/n6x4blVLYP4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/n6x4blVLYP4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/n6x4blVLYP4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-03-10T10:00:27Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "1pXrfqBqn57uIfdZm4JmQdMY1Pg",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "nc36RHbTPeY"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T13:02:18Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como Configurar uma Integração via Webhook [Leadster]",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/nc36RHbTPeY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/nc36RHbTPeY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/nc36RHbTPeY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T13:02:18Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "WVycITWoSFcX31ZJmJhxtg91yvg",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "goDQRnBlUtM"
+        },
+        "snippet": {
+            "publishedAt": "2020-05-18T17:46:49Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como integrar a Leadster ao RdStation",
+            "description": "A Leadster é uma plataforma de marketing conversacional que aumenta a geração de leads de seu site, persuadindo seu ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/goDQRnBlUtM/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/goDQRnBlUtM/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/goDQRnBlUtM/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-05-18T17:46:49Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "5Riw_Me7SOIC5simD7hnnF12Se4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "HoZuMuY7To4"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:50:04Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como Integrar a Leadster com o Zapier",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/HoZuMuY7To4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/HoZuMuY7To4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/HoZuMuY7To4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:50:04Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Qx0TxrqphKIXgU7vlLTHmmR_mdM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "iHetrYfuJ-w"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-15T13:57:39Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Tutorial - Personalização de Páginas e Campanhas",
+            "description": "Neste vídeo, o especialista em Customer Success da Leadster mostra como utilizar estratégias de personalização de fluxos de ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/iHetrYfuJ-w/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/iHetrYfuJ-w/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/iHetrYfuJ-w/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-15T13:57:39Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "4eUTmGg25J3MOpPP8V-Y0R7Eh7c",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "llSOSMXobIs"
+        },
+        "snippet": {
+            "publishedAt": "2021-07-19T19:35:00Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como integrar a Leadster com ActiveCampaign",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/llSOSMXobIs/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/llSOSMXobIs/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/llSOSMXobIs/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-07-19T19:35:00Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "GaWBPq_5IAjcEU7EhISU8hk0bbw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "WPzlbRJ9YO8"
+        },
+        "snippet": {
+            "publishedAt": "2020-11-10T13:00:20Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como integrar a Leadster com o JivoChat",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/WPzlbRJ9YO8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/WPzlbRJ9YO8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/WPzlbRJ9YO8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 3,
+                "label": "Marketing Digital"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-11-10T13:00:20Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Qx0TxrqphKIXgU7vlLTHmmR_mdM",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "iHetrYfuJ-w"
+        },
+        "snippet": {
+            "publishedAt": "2022-03-15T13:57:39Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Tutorial - Personalização de Páginas e Campanhas",
+            "description": "Neste vídeo, o especialista em Customer Success da Leadster mostra como utilizar estratégias de personalização de fluxos de ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/iHetrYfuJ-w/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/iHetrYfuJ-w/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/iHetrYfuJ-w/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-03-15T13:57:39Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "4eUTmGg25J3MOpPP8V-Y0R7Eh7c",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "llSOSMXobIs"
+        },
+        "snippet": {
+            "publishedAt": "2021-07-19T19:35:00Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como integrar a Leadster com ActiveCampaign",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/llSOSMXobIs/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/llSOSMXobIs/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/llSOSMXobIs/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-07-19T19:35:00Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "GaWBPq_5IAjcEU7EhISU8hk0bbw",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "WPzlbRJ9YO8"
+        },
+        "snippet": {
+            "publishedAt": "2020-11-10T13:00:20Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como integrar a Leadster com o JivoChat",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/WPzlbRJ9YO8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/WPzlbRJ9YO8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/WPzlbRJ9YO8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2020-11-10T13:00:20Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Z3yEZH4Pz0mzReIkH8WybQJLvVI",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "Xfpr9JYX78A"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:42:12Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como criar uma Chamada de Alta Conversão",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/Xfpr9JYX78A/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/Xfpr9JYX78A/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/Xfpr9JYX78A/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:42:12Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "OsEPGs0kAKvj4HVxn87mhSRGYso",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "faNcPWQyHV4"
+        },
+        "snippet": {
+            "publishedAt": "2021-07-26T12:52:53Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como Ativar a Leadster no Site",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/faNcPWQyHV4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/faNcPWQyHV4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/faNcPWQyHV4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-07-26T12:52:53Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "P6sFEmQPYPSmQ4h6xqB9lF_uaII",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "pydcdR9pf5g"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:49:19Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como instalar a Leadster via Código",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/pydcdR9pf5g/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/pydcdR9pf5g/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/pydcdR9pf5g/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:49:19Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "NHTHu8qNKbMrGLURtytO7iog5JY",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "b0KlEQ7YLQ4"
+        },
+        "snippet": {
+            "publishedAt": "2023-03-06T10:00:20Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Product-Market Fit: O que é e por que sua Startup precisa dele para sobreviver?",
+            "description": "Entenda qual é a importância de ter um produto que atenda uma necessidade real de mercado e tenha viabilidade técnica e ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/b0KlEQ7YLQ4/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/b0KlEQ7YLQ4/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/b0KlEQ7YLQ4/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-03-06T10:00:20Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ZfLjo56kSQpTs4EyiHiZkowQn60",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "ouCGdcnxeu8"
+        },
+        "snippet": {
+            "publishedAt": "2023-02-16T10:00:25Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "O que é a Leadster? Conheça a ferramenta de Marketing Conversacional",
+            "description": "Saiba mais sobre a Leadster, primeira plataforma de Marketing Conversacional do Brasil. ================= Neste corte do ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/ouCGdcnxeu8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/ouCGdcnxeu8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/ouCGdcnxeu8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-02-16T10:00:25Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "b7kzzLob9TTn0NSu9m8z6JX4zPo",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "vm2Hzjp2qmE"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:59:50Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Página de Captura | Leadster",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/vm2Hzjp2qmE/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/vm2Hzjp2qmE/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/vm2Hzjp2qmE/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:59:50Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "Gnv4TYrIKlbX_Zy711JviT98BF0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "H3woTHbtWWk"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T13:00:10Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como Integrar a Leadster com Hubspot",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/H3woTHbtWWk/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/H3woTHbtWWk/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/H3woTHbtWWk/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T13:00:10Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ltTuZQjBUslLCg-CPwmlvoLZI6s",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "WG0taidKKHY"
+        },
+        "snippet": {
+            "publishedAt": "2021-08-05T21:04:39Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como usar a Leadster para qualificar seus leads de forma automática",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/WG0taidKKHY/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/WG0taidKKHY/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/WG0taidKKHY/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-08-05T21:04:39Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "-PghraEXLO9l_ljZRFjnKubRRYE",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "iV87gcdENX8"
+        },
+        "snippet": {
+            "publishedAt": "2021-01-25T13:07:06Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como personalizar seu indentificador na integração com RD Station",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/iV87gcdENX8/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/iV87gcdENX8/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/iV87gcdENX8/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-01-25T13:07:06Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "kTqFzDR-aP3Tl8A6aPyXjdeEZc0",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "o6qeMW-UUb0"
+        },
+        "snippet": {
+            "publishedAt": "2023-04-11T12:15:05Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Inteligência artificial e empregabilidade",
+            "description": "Reflita sobre como a evolução da inteligência artificial deve afetar a empregabilidade nas áreas do Marketing Digital.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/o6qeMW-UUb0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/o6qeMW-UUb0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/o6qeMW-UUb0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 4,
+                "label": "Geração de Leads"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-04-11T12:15:05Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "siWlLeL0z7A9NhlaH5OPmsRAmTA",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "q3T7qd1x1a0"
+        },
+        "snippet": {
+            "publishedAt": "2022-07-20T17:45:57Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como otimizar uma página usando o Google Search Console (Search Engine Optimization - SEO)",
+            "description": "Veja como otimizar uma página do seu site que já atrai tráfego utilizando a ferramenta do Google Search Console.",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/q3T7qd1x1a0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/q3T7qd1x1a0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/q3T7qd1x1a0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-07-20T17:45:57Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "ht1OwPMOjCCvklMSscROgdPZNAU",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "NhZ485LoB2Y"
+        },
+        "snippet": {
+            "publishedAt": "2019-08-26T14:57:32Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Marketing Conversacional para Aumentar a Conversão - Parte 1",
+            "description": "Segundo passo para aumentar a geração de leads do seu site com a ferramenta da Neurologic! Inicie seu teste grátis: ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/NhZ485LoB2Y/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/NhZ485LoB2Y/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/NhZ485LoB2Y/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2019-08-26T14:57:32Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "UiX1raMZW8pYu5E3jygqT2sm2q4",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "OJF_Giu4VmA"
+        },
+        "snippet": {
+            "publishedAt": "2022-08-31T12:47:25Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Como integrar a Leadster ao Bitrix24",
+            "description": "",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/OJF_Giu4VmA/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/OJF_Giu4VmA/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/OJF_Giu4VmA/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 5,
+                "label": "Mídia Paga"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2022-08-31T12:47:25Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "1fvB0p5zF1RdODn_j51n_cQKMuc",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "yju8RTdhHQ0"
+        },
+        "snippet": {
+            "publishedAt": "2023-04-25T13:45:06Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Conheça as principais plataformas de Marketing Conversacional",
+            "description": "Conheça as principais plataformas de Marketing Conversacional do mercado. ================= Neste corte do webinar \"O ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/yju8RTdhHQ0/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/yju8RTdhHQ0/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 2,
+                "label": "Chatbot"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-04-25T13:45:06Z"
+        }
+    },
+    {
+        "kind": "youtube#searchResult",
+        "etag": "oclK4xZ1zRbSs-M0iub0NRKtLYI",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "mJdPr0WGKGg"
+        },
+        "snippet": {
+            "publishedAt": "2023-01-26T14:24:37Z",
+            "channelId": "UCrydTYsZKHPE_pe9NNLMeDA",
+            "title": "Agendamento de Reuniões - Acelere suas vendas com a nova funcionalidade da Leadster!",
+            "description": "Já imaginou uma função que te ajuda a acelerar suas vendas? Você pode agendar reuniões instantaneamente com os leads ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/mJdPr0WGKGg/default.jpg",
+                    "width": 120,
+                    "height": 90
+                },
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/mJdPr0WGKGg/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/mJdPr0WGKGg/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "category": {
+                "id": 1,
+                "label": "Agências"
+            },
+            "channelTitle": "Leadster - Marketing Conversacional",
+            "liveBroadcastContent": "none",
+            "publishTime": "2023-01-26T14:24:37Z"
+        }
+    }
+]

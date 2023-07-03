@@ -1,13 +1,39 @@
 import styled from "styled-components";
 
 import { device } from "@/styles/BreakPoints";
+import { Container } from "@/components/ui/Container";
+
+export const SectionVideos = styled(Container)`
+  padding: 9.5rem 0 4rem;
+  min-height: 1334px;
+
+  @media ${device.lg} {
+    min-height: 1270px;
+  }
+
+  @media ${device.lg} {
+    min-height: 1004px;
+  }
+
+  @media ${device.sm} {
+    min-height: 1750px;
+  }
+
+  @media (max-width: 600px) {
+    height: 450rem;
+  }
+
+  @media ${device.xs} {
+    height: 450rem;
+  }
+`;
 
 export const FilterWrapper = styled.header`
+  padding: 0 0 2.5rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 9.5rem 0 2.5rem;
   opacity: 0;
   transform: translateY(20px);
   z-index: 10;
@@ -71,7 +97,7 @@ export const SelectWrapper = styled.div`
   }
 
   @media (max-width: 820px) {
-    width: 23%;
+    display: block;
 
     label {
       display: none;
@@ -131,7 +157,11 @@ export const PaginationItem = styled.li`
   margin: 0 2px;
 `;
 
-export const PaginationButton = styled.button`
+type PaginationButtonProps = {
+  isActive: boolean;
+};
+
+export const PaginationButton = styled.button<PaginationButtonProps>`
   font-size: 2.5rem;
   font-weight: 600;
   width: 4.3rem;
@@ -139,6 +169,9 @@ export const PaginationButton = styled.button`
   border-radius: 8px;
   transition: all 0.2s ease-out;
   border: 1px solid transparent;
+  border: ${props => (props.isActive ? "1px solid var(--primaryColor)" : "")};
+  color: ${props =>
+    props.isActive ? "var(--primaryColor)" : "var(--tertiaryColor)"};
 
   @media ${device.lg} {
     font-size: 2rem;

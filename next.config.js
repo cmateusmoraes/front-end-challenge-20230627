@@ -3,5 +3,8 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  images: {
+    domains: ["i.ytimg.com"],
+  },
 };
 module.exports = nextConfig;

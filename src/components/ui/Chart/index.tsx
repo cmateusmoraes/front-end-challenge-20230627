@@ -57,7 +57,7 @@ export function Chart() {
         .fromTo(
           bgChart.current,
           { autoAlpha: 0, y: 30 },
-          { autoAlpha: 1, y: 0, duration: 0.8 },
+          { autoAlpha: 1, y: 0, duration: 0.8, delay: 0.3 },
           0
         )
         .fromTo(

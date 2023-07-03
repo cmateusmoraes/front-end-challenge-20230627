@@ -168,7 +168,6 @@ export function Videos() {
           Página
         </Text>
 
-        {/* TODO: Pagination */}
         <S.PaginationList>
           {Array.from({
             length: Math.ceil(localData.length / itemsPerPage),

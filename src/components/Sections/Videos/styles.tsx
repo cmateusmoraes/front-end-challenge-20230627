@@ -16,11 +16,16 @@ export const SectionVideos = styled(Container)`
   }
 
   @media ${device.sm} {
-    min-height: 1750px;
+    min-height: 1600px;
+    padding-top: 2rem;
   }
 
   @media (max-width: 600px) {
-    height: 450rem;
+    height: 440rem;
+  }
+
+  @media (max-width: 430px) {
+    height: 400rem;
   }
 
   @media ${device.xs} {

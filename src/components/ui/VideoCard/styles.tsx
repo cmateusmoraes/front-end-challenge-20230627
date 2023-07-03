@@ -36,16 +36,24 @@ export const VideoCard = styled.button`
         height: 22rem;
       }
 
+      @media (max-width: 630px) {
+        height: 20rem;
+      }
+
       @media (max-width: 600px) {
         height: 30rem;
       }
 
       @media (max-width: 425px) {
-        height: 26rem;
+        height: 25rem;
       }
 
-      @media ${device.sm} {
-        height: 30rem;
+      @media ${device.xs} {
+        height: 31rem;
+      }
+
+      @media ${device.xxxs} {
+        height: 29rem;
       }
     }
 

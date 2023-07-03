@@ -102,9 +102,11 @@ export function Videos() {
       );
       setLocalData(filteredData);
       setActiveFilter(value);
+      scrollToVideos();
     } else {
       setLocalData(data ? data : []);
       setActiveFilter(0);
+      scrollToVideos();
     }
   };
 

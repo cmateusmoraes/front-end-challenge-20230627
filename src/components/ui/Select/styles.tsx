@@ -41,9 +41,17 @@ export const Select = styled.select`
     font-family: var(--font-jakarta);
     line-height: 18px;
 
+    @media ${device.lg} {
+      font-size: 1.5rem;
+    }
+
     @media ${device.sm} {
       font-size: 2rem;
     }
+  }
+
+  @media ${device.lg} {
+    font-size: 1.5rem;
   }
 
   @media ${device.sm} {

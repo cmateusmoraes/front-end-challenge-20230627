@@ -8,6 +8,7 @@ import { Text } from "@/components/ui/Text";
 import * as S from "./styles";
 
 import icoPlay from "@/assets/img/play.svg";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -56,21 +57,27 @@ export default function VideoCard({
 
   return (
     <S.VideoCard ref={video}>
-      <S.IcoPlay src={icoPlay} alt="Ver vídeo" loading="lazy" />
-      <figure>
-        <S.ImageVideo
-          src={url}
-          alt={title}
-          width={width}
-          height={height}
-          loading="lazy"
-        />
-        <S.CaptionVideo>
-          <Text fontSize="xs" fontWeight="800">
-            {title}
-          </Text>
-        </S.CaptionVideo>
-      </figure>
+      <a
+        href={`https://www.youtube.com/watch?v=${id}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <S.IcoPlay src={icoPlay} alt="Ver vídeo" loading="lazy" />
+        <figure>
+          <S.ImageVideo
+            src={url}
+            alt={title}
+            width={width}
+            height={height}
+            loading="lazy"
+          />
+          <S.CaptionVideo>
+            <Text fontSize="xs" fontWeight="800">
+              {title}
+            </Text>
+          </S.CaptionVideo>
+        </figure>
+      </a>
     </S.VideoCard>
   );
 }

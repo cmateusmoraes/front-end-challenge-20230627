@@ -54,6 +54,10 @@ export const Filter = styled.li<filterProp>`
     padding: 0.8rem 0;
     color: ${props => (props.active ? "#FFFFFF" : "var(--tertiaryColor)")};
     transition: all 0.25s ease-out;
+
+    @media ${device.lg} {
+      font-size: 1.5rem;
+    }
   }
 
   &:first-child {

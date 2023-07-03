@@ -174,7 +174,10 @@ export function Videos() {
           }).map((item, index) => (
             <S.PaginationItem key={index}>
               <S.PaginationButton
-                onClick={() => setCurrentPage(index + 1)}
+                onClick={() => {
+                  setCurrentPage(index + 1);
+                  scrollToVideos();
+                }}
                 isActive={currentPage === index + 1}
               >
                 {index + 1}

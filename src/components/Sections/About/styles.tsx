@@ -8,6 +8,7 @@ import { device } from "@/styles/BreakPoints";
 export const SectionAbout = styled.section`
   background-color: var(--bgColorSecondary);
   padding: 10rem 0 4rem;
+  overflow-x: hidden;
 `;
 export const WrapperAbout = styled(Container)`
   display: flex;

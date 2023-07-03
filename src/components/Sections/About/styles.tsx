@@ -57,6 +57,7 @@ export const WrapperInfo = styled.div`
 
   @media ${device.md} {
     width: 100%;
+    padding-left: 2rem;
   }
 `;
 

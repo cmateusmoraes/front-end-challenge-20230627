@@ -4,7 +4,7 @@
 
  Linkedin: [https://www.linkedin.com/in/cmateusmoraes/](https://www.linkedin.com/in/cmateusmoraes/)
 
-<div align="center"><img src="https://front-end-challenge-20230627.vercel.app/mateusmoraes-leadster.gif" alt="Cereja do bolo."></div>
+<div align="center"><img src="https://front-end-challenge-20230627.vercel.app/image/mateusmoraes-leadster.gif" alt="Cereja do bolo."></div>
 
 <br/>
 
@@ -12,29 +12,65 @@ Acesse: [https://front-end-challenge-20230627.vercel.app/](https://front-end-cha
 
 ### Início do desenvolvimento 28/06/2023
 
-<br/>
-
-
 ## 🧑‍💻 Sobre o Projeto
 Projeto desenvolvido seguindo o briefing da empresa, layout recebido em JPG. Alguns pontos a destacar:
 
 <ul>
 <li>SEO: Utilização de tags semânticas para o conteúdo, h1 para o texto principal, card com button > picture > img > figcaption, main, section, header, footer entre outras.</li>
 <li>Title e descriptions adequados, que mais relevância ao posicionamento do site em robôes de busca.</li>
-<li>Preparação do site para compartilhamento amigável com inserção de medatados para Facebook e Twitter com imagem de compartilhamento para ficar amigável no Whatsapp.</li>
+<li>Preparação do site para compartilhamento amigável com inserção de medatados para Whatsapp, Facebook e Twitter com imagem de compartilhamento para ficar amigável.</li>
 <li>Preocupação máxima com responsividade, o site tem que estar perfeito em dispositivos móveis, que são a grande maioria dos acessos.</li>
-<li>Otimização de imagens, código limpo e de fácil entendimento, estrutura de pastas de fácil entendimento.</li>
+<li>Otimização de imagens, código limpo e de fácil entendimento, estrutura de pastas organizadas.</li>
 <li>Preocupação com viewport inicial, adaptando o tamanho do Hero para que sempre deixe mostrando um pouco do conteúdo abaixo indicando a navegação.</li>
-<li>Página 404 customizada em caso de necessidades https://front-end-challenge-20230627.vercel.app/404)</li>
+<li>Página 404 customizada em caso de necessidades Veja: https://front-end-challenge-20230627.vercel.app/404)</li>
 </ul>
 
 ## 🎨 Atenção aos detalhes e animações
-Hoje em dia muito é falado sobre as bibliotecas mais "cool" do mercado e poucos dão a atenção devida ao básico listado acima. A visualização e os testes em dispositivos móveis tem que ser o foco de um desenvolvedor front-end.
+As animações são muito importantes, com elas podemos direcionar 100% da atenção do usuário para o que importa.
 
-<img src="https://front-end-challenge-20230627.vercel.app/mateusmoraes-leadster.gif" alt="Cereja do bolo.">
+Na animação que desenvolvi para o gráfico, segui uma história:
+
+<ol>
+<li>Inicialmente mostro a primeira barra com os leads de formulário.</li>
+<li>Com um pouco de atraso subo a barra dos leads de Whatsapp, os smiles vão surgindo sem muito destaque.</li>
+<li>A barra da Leadster é carregada com mais duração que as outras para dar mais evidência e o smile vem com mais força.</li>
+<li>Só então, apresento a informação de 14 dias de gratuidade para destacá-la e forçar a leitura.</li>
+<li>Por último o botão do CTA pulsa para convidar o usuário a ver a demonstração.</li>
+</ol>
+
+***
+
+## 📱 Testes em dispositivos móveis.
+
+Além de testar em diversos tipos de telas menores, também precisamos analisar em telas para tablets na vertical, celular na horizontal e em monitores widescreen com tamanho de tela reduzido (Notebooks).
+
+<img src="https://front-end-challenge-20230627.vercel.app/image/teste-responsivo.jpg" alt="Testes mobile.">
 
 
-## 📚🚀 Stack de desenvolvimento
+## 📚 Stack de desenvolvimento e decisões
+
+Segui a stack solicitada:
+
+<ol>
+<li>Next.js, última versão usando App router (experimental), ainda não usaria em um projeto em produção.</li>
+<li>Styled Components, algumas incompatibilidades com a pasta app router, em breve devemos ter soluções.</li>
+<li>Typescript, Eslint com rotina automatizada usando Husky para otimizar código antes do commit.</li>
+<li>Dados extraídos do Canal da empresa, utilizando API do Youtube, adicionei um campo para categoria.</li>
+<li>Axios e React Query para encapsular os dados, dados mockados em https://mocki.io/.</li>
+<li>GSAP e CSS para animações.</li>
+</ol>
+
+## ⌚️ O Tempo
+Infelizmente o tempo é nosso inimigo, descobri a vaga tarde e só consegui iniciar no dia 28/06, dividindo tempo com uma outra entrega (real) feita no dia 30/06, foi corrido. Tomei a decisão de focar mais nas animações e na fidelidadae do layout, não consegui finalizar o modal e testar a filtragem no limite mas seguirei fazendo pois quero deixar o teste disponível no meu Github.
+Também não consegui implementar os testes automatizados com Cypress mas podem ver no meu portfolio pessoal, também aberto no Github.
+
+## 💼 Agradecimento
+
+Agradeço a oportunidade de participar do processo. Espero que gostem. 
+
+<br/>
+
+***
 
 ## 💻 Pré-requisitos
 
@@ -43,7 +79,6 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Node.js 18.15.0+
 
 * Projeto desenvolvido no Windows
-   
 
 <br/>
 
@@ -80,7 +115,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador e veja o re
 
 <br/>
 
-Para compilar Portfolio Mateus Moraes, siga estas etapas:
+Para compilar Desafio Front-End Leadster, siga estas etapas:
 
 ```
 npm run build

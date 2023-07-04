@@ -8,6 +8,7 @@ export const Footer = styled.footer`
 
   p {
     margin-bottom: 1.5rem;
+
     @media ${device.sm} {
       text-align: center;
     }
@@ -36,6 +37,12 @@ export const Social = styled.ul`
     &:first-child {
       margin-left: 0;
     }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
 
@@ -52,6 +59,7 @@ export const WrapperSiteMap = styled.div`
 
   @media ${device.sm} {
     display: block;
+    padding-bottom: 2rem;
   }
 `;
 
@@ -105,8 +113,11 @@ export const WrapperCopy = styled.div`
 
   @media ${device.sm} {
     display: block;
+    padding-bottom: 0;
+  }
 
-    p {
+  p {
+    @media ${device.sm} {
       margin-bottom: 2rem;
       line-height: 2.5rem;
       text-align: center;

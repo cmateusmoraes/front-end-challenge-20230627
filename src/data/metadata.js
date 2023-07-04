@@ -30,3 +30,74 @@ export const metadataInfo = {
     images: [`${urlShare}/image/img-share.jpg`],
   },
 };
+
+export const jsonLdInfo = {
+  "@context": "http://schema.org",
+  "@type": "WebApplication",
+  "@id": "product_name",
+  applicationCategory: "BusinessApplication",
+  name: titleShare,
+  operatingSystem: "all",
+  browserRequirements: "Requires Javascript and HTML5 support.",
+  url: urlShare,
+  screenshot: `${urlShare}/image/img-share.jpg`,
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "Value",
+    reviewCount: "Numbers",
+  },
+  offers: {
+    "@type": "AggregateOffer",
+    offeredBy: {
+      "@type": "Organization",
+      name: titleShare,
+    },
+    highPrice: "Plano Traction",
+    lowPrice: "Plano Free",
+    offerCount: "",
+    priceCurrency: "BRL",
+    priceSpecification: [
+      {
+        "@type": "UnitPriceSpecification",
+        price: "0.00",
+        priceCurrency: "BRL",
+        name: "Plano Free",
+      },
+      {
+        "@type": "UnitPriceSpecification",
+        price: "189.00",
+        priceCurrency: "BRL",
+        name: "Plano Plano Starter",
+        referenceQuantity: {
+          "@type": "QuantitativeValue",
+          value: "1",
+          unitCode: "MON",
+        },
+      },
+      {
+        "@type": "UnitPriceSpecification",
+        price: "329.00",
+        priceCurrency: "BRL",
+        name: "Plano Traction",
+        referenceQuantity: {
+          "@type": "QuantitativeValue",
+          value: "1",
+          unitCode: "MON",
+        },
+      },
+    ],
+  },
+
+  creator: {
+    "@type": "Organization",
+    "@id": "#organization",
+    url: "https://leadster.com.br/",
+    name: "Leadster",
+    logo: {
+      "@type": "ImageObject",
+      url: `${urlShare}/image/logo-leadster.gif`,
+      width: "270",
+      height: "62",
+    },
+  },
+};

@@ -17,7 +17,7 @@ export const SectionVideos = styled(Container)`
 
   @media ${device.sm} {
     min-height: 1600px;
-    padding-top: 2rem;
+    padding-top: 0;
   }
 
   @media (max-width: 600px) {
@@ -25,11 +25,15 @@ export const SectionVideos = styled(Container)`
   }
 
   @media (max-width: 430px) {
-    height: 400rem;
+    height: 390rem;
   }
 
   @media ${device.xs} {
-    height: 450rem;
+    height: 445rem;
+  }
+
+  @media ${device.xxxs} {
+    height: 425rem;
   }
 `;
 
@@ -49,6 +53,7 @@ export const FilterWrapper = styled.header`
 
   @media ${device.sm} {
     display: block;
+    padding: 2.7rem 0 2.5rem;
   }
 `;
 
@@ -57,16 +62,6 @@ export const FilterList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-
-  li {
-    &:last-child {
-      display: none;
-
-      @media ${device.sm} {
-        display: block;
-      }
-    }
-  }
 
   @media ${device.lg} {
     width: 68%;
@@ -83,6 +78,16 @@ export const FilterList = styled.ul`
     grid-template-columns: 1fr 1fr;
     grid-gap: 1.5rem;
   }
+
+  li {
+    &:last-child {
+      display: none;
+
+      @media ${device.sm} {
+        display: block;
+      }
+    }
+  }
 `;
 
 export const SelectWrapper = styled.div`
@@ -93,28 +98,33 @@ export const SelectWrapper = styled.div`
   opacity: 0;
   transform: translateY(20px);
 
-  label {
-    width: 35%;
-  }
-
   @media ${device.lg} {
     width: 30%;
   }
 
   @media (max-width: 820px) {
     display: block;
-
-    label {
-      display: none;
-    }
   }
 
   @media ${device.sm} {
     width: 100%;
+  }
 
-    label {
+  label {
+    width: 35%;
+
+    @media (max-width: 820px) {
+      display: none;
+    }
+
+    @media ${device.sm} {
       width: 25%;
       display: block;
+    }
+
+    @media ${device.xs} {
+      width: 100%;
+      font-size: 2.5rem;
     }
   }
 `;
@@ -145,8 +155,8 @@ export const PaginationWrapper = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media ${device.lg} {
-    p {
+  p {
+    @media ${device.lg} {
       font-size: 2rem;
     }
   }

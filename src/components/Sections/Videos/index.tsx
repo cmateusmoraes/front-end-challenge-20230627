@@ -41,33 +41,6 @@ export function Videos() {
     })
   );
 
-  const showVideos = () => {
-    tl.current = gsap
-      .timeline()
-      .to(
-        filterList.current,
-        { autoAlpha: 1, y: 0, duration: 0.8, delay: 0.3 },
-        0
-      )
-      .to(select.current, { autoAlpha: 1, y: 0, duration: 0.8 }, "-=0.4")
-      .to(videoGrid.current, { autoAlpha: 1, y: 0, duration: 0.8 }, "-=0.4");
-  };
-
-  const scrollToVideos = () => {
-    const element = document.getElementById("videos") as HTMLElement | null;
-    const offsetTop = element?.offsetTop;
-
-    window.scrollTo({
-      top: offsetTop,
-      behavior: "smooth",
-    });
-  };
-
-  useEffect(() => {
-    showVideos();
-    console.log("Current page");
-  }, [currentPage]);
-
   const { isLoading, error, data } = useQuery<VideoProps[]>({
     queryKey: ["repoData"],
     queryFn: () =>
@@ -79,6 +52,12 @@ export function Videos() {
       setTimeout(() => showVideos(), 500);
     },
   });
+
+  //PAGINATION
+  useEffect(() => {
+    showVideos();
+    console.log("Current page");
+  }, [currentPage]);
 
   //ORDER
   useEffect(() => {
@@ -108,6 +87,28 @@ export function Videos() {
       setActiveFilter(0);
       scrollToVideos();
     }
+  };
+
+  const showVideos = () => {
+    tl.current = gsap
+      .timeline()
+      .to(
+        filterList.current,
+        { autoAlpha: 1, y: 0, duration: 0.8, delay: 0.3 },
+        0
+      )
+      .to(select.current, { autoAlpha: 1, y: 0, duration: 0.8 }, "-=0.4")
+      .to(videoGrid.current, { autoAlpha: 1, y: 0, duration: 0.8 }, "-=0.4");
+  };
+
+  const scrollToVideos = () => {
+    const element = document.getElementById("videos") as HTMLElement | null;
+    const offsetTop = element?.offsetTop;
+
+    window.scrollTo({
+      top: offsetTop,
+      behavior: "smooth",
+    });
   };
 
   if (isLoading || !data)

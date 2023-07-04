@@ -64,6 +64,15 @@ export const VideoCard = styled.button`
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
+
+        @media ${device.sm} {
+          line-height: 2.6rem;
+        }
+
+        @media ${device.xs} {
+          line-height: 2.6rem;
+          font-size: 2.3rem;
+        }
       }
     }
 

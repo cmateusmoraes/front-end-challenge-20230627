@@ -26,8 +26,8 @@ export const WrapperText = styled.div`
   position: relative;
   margin-bottom: 1.3rem;
 
-  @media ${device.sm} {
-    p {
+  p {
+    @media ${device.sm} {
       max-width: calc(100vw - 5rem);
       margin-left: auto;
       margin-right: auto;
@@ -52,27 +52,29 @@ export const Tag = styled.div`
 
 export const Title = styled(Text)`
   width: 100%;
-  margin-bottom: 5.8rem;
+  padding-bottom: 2.4rem;
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  margin-bottom: 2.4rem;
   line-height: 7.2rem;
+  border-bottom: 1px solid #d5d9dd;
 
   strong {
     color: var(--primaryColor);
     display: block;
     font-size: 9rem;
+
+    @media ${device.sm} {
+      font-size: 6rem;
+    }
+
+    @media ${device.xs} {
+      font-size: 6rem;
+    }
   }
 
   @media ${device.sm} {
     font-size: 4rem;
-
-    strong {
-      font-size: 6rem;
-    }
-  }
-
-  @media ${device.xs} {
-    strong {
-      font-size: 6rem;
-    }
   }
 `;
 

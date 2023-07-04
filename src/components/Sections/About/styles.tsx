@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styled from "styled-components";
 
 import { Container } from "@/components/ui/Container";
@@ -10,6 +9,7 @@ export const SectionAbout = styled.section`
   padding: 10rem 0 4rem;
   overflow-x: hidden;
 `;
+
 export const WrapperAbout = styled(Container)`
   display: flex;
   max-width: 1800px;
@@ -52,6 +52,14 @@ export const WrapperGraph = styled.div`
 export const WrapperInfo = styled.div`
   width: 45%;
 
+  @media ${device.md} {
+    width: 100%;
+  }
+
+  @media ${device.xs} {
+    padding-left: 2rem;
+  }
+
   h2 {
     @media ${device.xs} {
       font-size: 4.1rem;
@@ -71,11 +79,6 @@ export const WrapperInfo = styled.div`
   p {
     line-height: 4.8rem;
   }
-
-  @media ${device.md} {
-    width: 100%;
-    padding-left: 2rem;
-  }
 `;
 
 export const WrapperCta = styled.div`
@@ -85,14 +88,26 @@ export const WrapperCta = styled.div`
   padding: 2.2rem 0;
   border-top: 1px solid #d5d9dd;
 
-  button {
-    margin-right: 2.5rem;
+  @media ${device.sm} {
+    display: block;
   }
 
-  @media ${device.sm} {
-    img {
-      max-width: 45%;
+  button {
+    margin-right: 2.5rem;
+
+    @media ${device.sm} {
+      padding: 2.5rem 0;
+      width: 100%;
+      margin: 0 auto 2rem;
+      font-size: 2.2rem;
+    }
+  }
+
+  img {
+    @media ${device.sm} {
+      max-width: 100%;
       height: auto;
+      margin: 0 auto;
     }
   }
 `;
@@ -102,16 +117,28 @@ export const WrapperDetails = styled(Text)`
   align-items: center;
   justify-content: flex-start;
 
+  @media ${device.xl} {
+    display: block;
+  }
+
   span {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+    @media ${device.sm} {
+      justify-content: center;
+    }
   }
 
   i {
     font-style: normal;
     display: block;
     margin: 0 5px;
+
+    @media ${device.xl} {
+      display: none;
+    }
   }
 
   img {
@@ -124,16 +151,8 @@ export const WrapperDetails = styled(Text)`
     &:last-child {
       margin: 0 0.5rem;
     }
-  }
 
-  @media ${device.xl} {
-    display: block;
-
-    i {
-      display: none;
-    }
-
-    img {
+    @media ${device.xl} {
       display: inline-block;
     }
   }

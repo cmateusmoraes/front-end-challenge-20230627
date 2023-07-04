@@ -16,13 +16,14 @@ Acesse: [https://front-end-challenge-20230627.vercel.app/](https://front-end-cha
 Projeto desenvolvido seguindo o briefing da empresa, layout recebido em JPG. Alguns pontos a destacar:
 
 <ul>
-<li>SEO: Utilização de tags semânticas para o conteúdo, h1 para o texto principal, card com button > picture > img > figcaption, main, section, header, footer entre outras.</li>
-<li>Title e descriptions adequados, que mais relevância ao posicionamento do site em robôes de busca.</li>
-<li>Preparação do site para compartilhamento amigável com inserção de medatados para Whatsapp, Facebook e Twitter com imagem de compartilhamento para ficar amigável.</li>
-<li>Preocupação máxima com responsividade, o site tem que estar perfeito em dispositivos móveis, que são a grande maioria dos acessos.</li>
-<li>Otimização de imagens, código limpo e de fácil entendimento, estrutura de pastas organizadas.</li>
+<li>SEO: Utilização de <strong>tags semânticas</strong> para o conteúdo, h1 para o texto principal, card com button > picture > img > figcaption, main, section, header, footer entre outras.</li>
+<li><strong>Title e descriptions</strong> adequados, que mais relevância ao posicionamento do site em robôes de busca.</li>
+<li>Implementação de <strong>Schema JSON-LD</strong> adequado para um Produto SaaS.</li>
+<li>Preparação do site para compartilhamento amigável com inserção de <strong>medatados</strong> para Whatsapp, Facebook e Twitter com imagem de compartilhamento para ficar amigável.</li>
+<li>Preocupação máxima com <strong>responsividade</strong>, o site tem que estar perfeito em dispositivos móveis, que são a grande maioria dos acessos.</li>
+<li>Otimização de imagens, <strong>código limpo</strong> e de fácil entendimento, estrutura de pastas organizadas.</li>
 <li>Preocupação com viewport inicial, adaptando o tamanho do Hero para que sempre deixe mostrando um pouco do conteúdo abaixo indicando a navegação.</li>
-<li>Página 404 customizada em caso de necessidades Veja: https://front-end-challenge-20230627.vercel.app/404)</li>
+<li><strong>Página 404 customizada</strong> em caso de necessidades Veja: https://front-end-challenge-20230627.vercel.app/404)</li>
 </ul>
 
 ## 🎨 Atenção aos detalhes e animações

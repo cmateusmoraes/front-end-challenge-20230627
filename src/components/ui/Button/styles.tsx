@@ -16,13 +16,13 @@ export const Button = styled.button`
   border: 1px solid var(--primaryColor);
   transition: all 0.2s ease-out;
 
+  @media ${device.sm} {
+    padding: 1.5rem 3rem;
+  }
+
   &:hover {
     box-shadow: -1px 4px 25px 0px rgba(0, 0, 0, 0.1);
     transform: scale(0.97);
     border: 1px solid var(--primaryColor);
-  }
-
-  @media ${device.sm} {
-    padding: 1.5rem 3rem;
   }
 `;

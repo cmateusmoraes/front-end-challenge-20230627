@@ -58,6 +58,14 @@ export const Filter = styled.li<filterProp>`
     @media ${device.lg} {
       font-size: 1.5rem;
     }
+
+    @media ${device.sm} {
+      font-size: 2rem;
+    }
+
+    @media ${device.xs} {
+      font-size: 2.3rem;
+    }
   }
 
   &:first-child {

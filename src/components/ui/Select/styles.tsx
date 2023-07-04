@@ -36,6 +36,25 @@ export const Select = styled.select`
   width: 100%;
   font-size: 1.6rem;
 
+  @media ${device.lg} {
+    font-size: 1.5rem;
+  }
+
+  @media ${device.sm} {
+    margin-top: 1rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+  }
+
+  @media ${device.xs} {
+    font-size: 2.3rem;
+  }
+
+  @media ${device.xxs} {
+    margin-top: 1rem;
+    line-height: 4rem;
+  }
+
   option {
     font-size: 1.6rem;
     font-family: var(--font-jakarta);
@@ -48,20 +67,9 @@ export const Select = styled.select`
     @media ${device.sm} {
       font-size: 2rem;
     }
-  }
 
-  @media ${device.lg} {
-    font-size: 1.5rem;
-  }
-
-  @media ${device.sm} {
-    margin-top: 1rem;
-    line-height: 3.5rem;
-    font-size: 2rem;
-  }
-
-  @media ${device.xxs} {
-    margin-top: 1rem;
-    line-height: 4rem;
+    @media ${device.xs} {
+      font-size: 2.3rem;
+    }
   }
 `;

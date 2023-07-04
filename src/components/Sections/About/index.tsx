@@ -71,6 +71,9 @@ export function About() {
           repeat: 4,
           duration: 0.2,
           delay: 3,
+        })
+        .to(cta.current, {
+          scale: 1,
         });
     }, about);
     return () => ctx.revert();

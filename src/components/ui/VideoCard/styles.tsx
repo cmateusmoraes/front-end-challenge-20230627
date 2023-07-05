@@ -95,38 +95,40 @@ export const VideoCard = styled.button`
   }
 
   @media (hover: hover) {
-    &:hover {
-      box-shadow: -1px 4px 54px 0px rgba(0, 0, 0, 0.2);
+    a {
+      &:hover {
+        box-shadow: -1px 4px 54px 0px rgba(0, 0, 0, 0.2);
 
-      & > img {
-        opacity: 1;
-        transform: scale(1);
-      }
-
-      figcaption {
-        height: 10.5rem;
-
-        @media ${device.lg} {
-          height: 8.5rem;
+        & > img {
+          opacity: 1;
+          transform: scale(1);
         }
-      }
 
-      figure {
-        &::before {
-          opacity: 0.5;
-          transform: scale(20);
+        figcaption {
+          height: 10.5rem;
 
-          @media ${device.sm} {
+          @media ${device.lg} {
+            height: 8.5rem;
+          }
+        }
+
+        figure {
+          &::before {
+            opacity: 0.5;
             transform: scale(20);
+
+            @media ${device.sm} {
+              transform: scale(20);
+            }
+
+            @media (max-width: 600px) {
+              transform: scale(40);
+            }
           }
 
-          @media (max-width: 600px) {
-            transform: scale(40);
+          img {
+            transform: translateY(5px) scale(1.03);
           }
-        }
-
-        img {
-          transform: translateY(5px) scale(1.03);
         }
       }
     }

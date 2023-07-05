@@ -9,7 +9,7 @@ const jsonLd = jsonLdInfo;
 
 export default function Home() {
   return (
-    <main role="main">
+    <main>
       <Hero />
 
       <Videos />

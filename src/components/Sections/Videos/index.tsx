@@ -7,9 +7,10 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
 import VideoCard from "@/components/ui/VideoCard";
-import { Container } from "@/components/ui/Container";
+
 import { Text } from "@/components/ui/Text";
 import { FilterTag } from "@/components/ui/FilterTag";
+import { Modal } from "@/components/ui/Modal";
 import * as S from "./styles";
 
 import { VideoProps } from "@/types/types";
@@ -26,6 +27,7 @@ export function Videos() {
   const [activeFilter, setActiveFilter] = useState<Number>();
   const [filter, setFilter] = useState(filters[0]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [showModal, setShowModal] = useState(false);
   const itemsPerPage = 9;
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -56,11 +58,11 @@ export function Videos() {
   //PAGINATION
   useEffect(() => {
     showVideos();
-    console.log("Current page");
   }, [currentPage]);
 
-  //ORDER
-  useEffect(() => {
+  //CATEGORY
+  const handleClickCategory = (category: any) => {
+    setFilter(category);
     setCurrentPage(1);
     const sortedData = localData.sort((a, b) => {
       const dateA = new Date(a.snippet.publishedAt);
@@ -70,9 +72,9 @@ export function Videos() {
         : dateB.getTime() - dateA.getTime();
     });
     setLocalData(sortedData);
-  }, [filter, localData]);
+  };
 
-  //CATEGORIES
+  //FILTER
   const handleClickFilter = (value: number) => {
     if (value !== activeFilter && data) {
       setCurrentPage(1);
@@ -118,7 +120,14 @@ export function Videos() {
       </S.SectionVideos>
     );
 
-  if (error) return "Ocorreu um erro ao obter a lista de vídeos :/";
+  if (error)
+    return (
+      <S.SectionVideos style={{ padding: "10rem 0", textAlign: "center" }}>
+        <Text fontSize="2rem" fontWeight="600" color="darkred">
+          Ocorreu um erro ao carregar os vídeos
+        </Text>
+      </S.SectionVideos>
+    );
 
   return (
     <S.SectionVideos id="videos" as="section">
@@ -145,7 +154,10 @@ export function Videos() {
           </Text>
           <CustomSelect
             value={filter}
-            onChange={setFilter}
+            onChange={value => {
+              handleClickCategory(value);
+              scrollToVideos;
+            }}
             options={filters}
             mapOptionToLabel={(order: FilterTypesProps) => order.label}
             mapOptionToValue={(order: FilterTypesProps) => order.value}
@@ -187,6 +199,10 @@ export function Videos() {
           ))}
         </S.PaginationList>
       </S.PaginationWrapper>
+
+      {/* <Modal onClose={() => setShowModal(!showModal)} isOpen={showModal}>
+        Teste
+      </Modal> */}
     </S.SectionVideos>
   );
 }

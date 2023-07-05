@@ -1,31 +1,27 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { gsap, Power1 } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
 import VideoCard from "@/components/ui/VideoCard";
-
 import { Text } from "@/components/ui/Text";
 import { FilterTag } from "@/components/ui/FilterTag";
-import { Modal } from "@/components/ui/Modal";
+import { CustomSelect } from "@/components/ui/Select";
 import * as S from "./styles";
 
-import { VideoProps } from "@/types/types";
+import { VideoProps, OrderProps } from "@/types/types";
 import { categories } from "@/data/categories";
-import { CustomSelect } from "@/components/ui/Select";
-
-import { filters } from "@/data/filters";
-import { FilterTypesProps } from "@/types/types";
+import { orders } from "@/data/orders";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export function Videos() {
   const [localData, setLocalData] = useState<VideoProps[]>([]);
-  const [activeFilter, setActiveFilter] = useState<Number>();
-  const [filter, setFilter] = useState(filters[0]);
+  const [categorySelected, setCategorySelected] = useState<number>();
+  const [orderSelected, setOrderSelected] = useState(orders[0]);
   const [currentPage, setCurrentPage] = useState(1);
   const [showModal, setShowModal] = useState(false);
   const itemsPerPage = 9;
@@ -33,9 +29,9 @@ export function Videos() {
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = localData.slice(indexOfFirstItem, indexOfLastItem);
 
-  const filterList = useRef(null);
-  const select = useRef(null);
-  const videoGrid = useRef(null);
+  const filterList = useRef<HTMLDivElement>(null);
+  const select = useRef<HTMLDivElement>(null);
+  const videoGrid = useRef<HTMLDivElement>(null);
 
   const tl = useRef(
     gsap.timeline({
@@ -51,47 +47,39 @@ export function Videos() {
         .then(res => res.data),
     onSuccess: data => {
       setLocalData(data);
-      setTimeout(() => showVideos(), 500);
+      setTimeout(() => showSectionOnLoadData(), 500);
     },
   });
 
-  //PAGINATION
-  useEffect(() => {
-    showVideos();
-  }, [currentPage]);
-
-  //CATEGORY
-  const handleClickCategory = (category: any) => {
-    setFilter(category);
+  const sortByOrder = (order: OrderProps) => {
+    setOrderSelected(order);
     setCurrentPage(1);
     const sortedData = localData.sort((a, b) => {
       const dateA = new Date(a.snippet.publishedAt);
       const dateB = new Date(b.snippet.publishedAt);
-      return filter.value === "DESC"
+      return orderSelected.value === "DESC"
         ? dateA.getTime() - dateB.getTime()
         : dateB.getTime() - dateA.getTime();
     });
     setLocalData(sortedData);
   };
 
-  //FILTER
-  const handleClickFilter = (value: number) => {
-    if (value !== activeFilter && data) {
-      setCurrentPage(1);
+  const filterByCategory = (selectedCategoryId: number) => {
+    if (selectedCategoryId !== categorySelected && data) {
       const filteredData = data.filter(
-        video => video.snippet.category.id === value
+        video => video.snippet.category.id === selectedCategoryId
       );
       setLocalData(filteredData);
-      setActiveFilter(value);
-      scrollToVideos();
+      setCategorySelected(selectedCategoryId);
+      setCurrentPage(1);
     } else {
       setLocalData(data ? data : []);
-      setActiveFilter(0);
-      scrollToVideos();
+      setCategorySelected(0);
     }
+    scrollToAndRefreshVideos();
   };
 
-  const showVideos = () => {
+  const showSectionOnLoadData = () => {
     tl.current = gsap
       .timeline()
       .to(
@@ -103,7 +91,11 @@ export function Videos() {
       .to(videoGrid.current, { autoAlpha: 1, y: 0, duration: 0.8 }, "-=0.4");
   };
 
-  const scrollToVideos = () => {
+  const scrollToAndRefreshVideos = () => {
+    tl.current = gsap
+      .timeline()
+      .from(videoGrid.current, { autoAlpha: 0, scale: 0.98, duration: 0.6 });
+
     const element = document.getElementById("videos") as HTMLElement | null;
     const offsetTop = element?.offsetTop;
 
@@ -137,14 +129,14 @@ export function Videos() {
             <FilterTag
               key={index}
               label={item.label}
-              onClick={() => handleClickFilter(item.value)}
-              isActive={activeFilter === item.value}
+              onClick={() => filterByCategory(item.value)}
+              isActive={categorySelected === item.value}
             />
           ))}
           <FilterTag
             label="Todos"
             onClick={() => setLocalData(data)}
-            isActive={activeFilter === 0}
+            isActive={categorySelected === 0}
           />
         </S.FilterList>
 
@@ -153,14 +145,14 @@ export function Videos() {
             Ordenar por
           </Text>
           <CustomSelect
-            value={filter}
+            value={orderSelected}
             onChange={value => {
-              handleClickCategory(value);
-              scrollToVideos;
+              sortByOrder(value);
+              scrollToAndRefreshVideos();
             }}
-            options={filters}
-            mapOptionToLabel={(order: FilterTypesProps) => order.label}
-            mapOptionToValue={(order: FilterTypesProps) => order.value}
+            options={orders}
+            mapOptionToLabel={(order: OrderProps) => order.label}
+            mapOptionToValue={(order: OrderProps) => order.value}
           />
         </S.SelectWrapper>
       </S.FilterWrapper>
@@ -184,12 +176,12 @@ export function Videos() {
         <S.PaginationList>
           {Array.from({
             length: Math.ceil(localData.length / itemsPerPage),
-          }).map((item, index) => (
+          }).map((_, index) => (
             <S.PaginationItem key={index}>
               <S.PaginationButton
                 onClick={() => {
                   setCurrentPage(index + 1);
-                  scrollToVideos();
+                  scrollToAndRefreshVideos();
                 }}
                 isActive={currentPage === index + 1}
               >

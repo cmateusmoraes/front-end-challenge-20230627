@@ -37,7 +37,7 @@ export type VideoProps = {
   };
 };
 
-export type FilterTypesProps = {
+export type OrderProps = {
   label: string;
   value: string;
 };

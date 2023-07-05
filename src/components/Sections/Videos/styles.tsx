@@ -43,6 +43,7 @@ export const FilterWrapper = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid #d5d9dd;
   opacity: 0;
   transform: translateY(20px);
   z-index: 10;
@@ -135,7 +136,6 @@ export const VideosWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 4rem;
-  border-top: 1px solid #d5d9dd;
   border-bottom: 1px solid #d5d9dd;
   opacity: 0;
   transform: translateY(20px);

@@ -14,6 +14,7 @@ export function Hero() {
   const tag = useRef(null);
   const title = useRef(null);
   const titleConversion = useRef(null);
+  const line = useRef(null);
   const leadsterDetail = useRef(null);
   const text = useRef(null);
 
@@ -44,6 +45,11 @@ export function Hero() {
           { autoAlpha: 0, y: 30, duration: 0.8 },
           "-=0"
         )
+        .from(line.current, {
+          autoAlpha: 0,
+          clipPath: "inset(0 100% 0 0)",
+          duration: 1,
+        })
         .from(
           leadsterDetail.current,
           {
@@ -88,6 +94,8 @@ export function Hero() {
             ref={leadsterDetail}
           />
         </S.Title>
+
+        <S.Line ref={line} />
 
         <Text fontSize="sm" fontWeight="500" textAlign="center" ref={text}>
           Conheça as estratégias que <strong>mudaram o jogo</strong> e como

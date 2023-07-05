@@ -52,12 +52,10 @@ export const Tag = styled.div`
 
 export const Title = styled(Text)`
   width: 100%;
-  padding-bottom: 2.4rem;
+  padding-bottom: 1.5rem;
   padding-right: 0.8rem;
   padding-left: 0.8rem;
-  margin-bottom: 2.4rem;
   line-height: 7.2rem;
-  border-bottom: 1px solid #d5d9dd;
 
   strong {
     color: var(--primaryColor);
@@ -76,6 +74,13 @@ export const Title = styled(Text)`
   @media ${device.sm} {
     font-size: 4rem;
   }
+`;
+
+export const Line = styled.hr`
+  width: 100%;
+  border: none;
+  border-top: 1px solid #d5d9dd;
+  margin-bottom: 2.4rem;
 `;
 
 export const LeadsterDetail = styled(Image)`

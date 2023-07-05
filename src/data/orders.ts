@@ -1,6 +1,6 @@
-import { FilterTypesProps } from "@/types/types";
+import { OrderProps } from "@/types/types";
 
-export const filters: FilterTypesProps[] = [
+export const orders: OrderProps[] = [
   {
     label: "Mais recentes",
     value: "DESC",

@@ -1,8 +1,8 @@
 # Desafio Front-End Leadster | Mateus Moraes
 
- Meu portfolio: [http://mateus-moraes.vercel.app/](http://mateus-moraes.vercel.app/)
+Meu portfolio: [http://mateus-moraes.vercel.app/](http://mateus-moraes.vercel.app/)
 
- Linkedin: [https://www.linkedin.com/in/cmateusmoraes/](https://www.linkedin.com/in/cmateusmoraes/)
+Linkedin: [https://www.linkedin.com/in/cmateusmoraes/](https://www.linkedin.com/in/cmateusmoraes/)
 
 <div align="center"><img src="https://front-end-challenge-20230627.vercel.app/image/mateusmoraes-leadster.gif" alt="Cereja do bolo."></div>
 
@@ -13,6 +13,7 @@ Acesse: [https://front-end-challenge-20230627.vercel.app/](https://front-end-cha
 ### Início do desenvolvimento 28/06/2023
 
 ## 🧑‍💻 Sobre o Projeto
+
 Projeto desenvolvido seguindo o briefing da empresa, layout recebido em JPG. Alguns pontos a destacar:
 
 <ul>
@@ -23,10 +24,11 @@ Projeto desenvolvido seguindo o briefing da empresa, layout recebido em JPG. Alg
 <li>Preocupação máxima com <strong>responsividade</strong>, o site tem que estar perfeito em dispositivos móveis, que são a grande maioria dos acessos.</li>
 <li>Otimização de imagens, <strong>código limpo</strong> e de fácil entendimento, estrutura de pastas organizadas.</li>
 <li>Preocupação com viewport inicial, adaptando o tamanho do Hero para que sempre deixe mostrando um pouco do conteúdo abaixo indicando a navegação.</li>
-<li><strong>Página 404 customizada</strong> em caso de necessidades Veja: https://front-end-challenge-20230627.vercel.app/404)</li>
+<li><strong>Página 404 customizada</strong> em caso de necessidades Veja: https://front-end-challenge-20230627.vercel.app/404</li>
 </ul>
 
 ## 🎨 Atenção aos detalhes e animações
+
 As animações são muito importantes, com elas podemos direcionar 100% da atenção do usuário para o que importa.
 
 Na animação que desenvolvi para o gráfico, segui uma história:
@@ -39,14 +41,13 @@ Na animação que desenvolvi para o gráfico, segui uma história:
 <li>Por último o botão do CTA pulsa para convidar o usuário a ver a demonstração.</li>
 </ol>
 
-***
+---
 
 ## 📱 Testes em dispositivos móveis.
 
 Além de testar em diversos tipos de telas menores, também precisamos analisar em telas para tablets na vertical, celular na horizontal e em monitores widescreen com tamanho de tela reduzido (Notebooks).
 
 <img src="https://front-end-challenge-20230627.vercel.app/image/teste-responsivo.jpg" alt="Testes mobile.">
-
 
 ## 📚 Stack de desenvolvimento e decisões
 
@@ -62,24 +63,25 @@ Segui a stack solicitada:
 </ol>
 
 ## ⌚️ O Tempo
+
 Infelizmente o tempo é nosso inimigo, descobri a vaga tarde e só consegui iniciar no dia 28/06, dividindo tempo com uma outra entrega (real) feita no dia 30/06, foi corrido. Tomei a decisão de focar mais nas animações e na fidelidadae do layout, não consegui finalizar o modal e testar a filtragem no limite mas seguirei fazendo pois quero deixar o teste disponível no meu Github.
 Também não consegui implementar os testes automatizados com Cypress mas podem ver no meu portfolio pessoal, também aberto no Github.
 
 ## 💼 Agradecimento
 
-Agradeço a oportunidade de participar do processo. Espero que gostem. 
+Agradeço a oportunidade de participar do processo. Espero que gostem.
 
 <br/>
 
-***
+---
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Node.js 18.15.0+
+- Node.js 18.15.0+
 
-* Projeto desenvolvido no Windows
+- Projeto desenvolvido no Windows
 
 <br/>
 
@@ -88,12 +90,14 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o Desafio Front-End Leadster, siga estas etapas:
 
 Linux e macOS:
+
 ```
 npm install
 npm run prepare
 ```
 
 Windows:
+
 ```
 npm install
 npm run prepare
@@ -112,6 +116,7 @@ yarn dev
 # or
 pnpm dev
 ```
+
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador e veja o resultado.
 
 <br/>
